@@ -1,0 +1,11 @@
+ID,group_id,title,level
+1,1,Clean Code,2
+2,1,Design patterns,2
+3,1,Object-oriented Programming,1
+4,1,Performance Psychology,2
+5,1,Software Development,1
+6,1,Software Maintenance,2
+7,1,Software Quality,2
+8,1,SOLID (object-oriented design principles),2
+9,2,English,2
+10,2,Russian,1

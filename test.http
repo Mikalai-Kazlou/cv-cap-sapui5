@@ -1,0 +1,4 @@
+###
+GET http://localhost:4004/cv/$metadata
+###
+GET http://localhost:4004/cv/SkillGroups?$expand=skills

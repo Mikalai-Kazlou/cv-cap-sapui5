@@ -1,0 +1,133 @@
+<mvc:View controllerName="com.exercise.cvsapui5.controller.Main"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.uxap"
+	xmlns:layout="sap.ui.layout"
+	xmlns:m="sap.m">
+
+	<ObjectPageLayout id="idObjectPageLayout"
+		showTitleInHeaderContent="true">
+		<headerTitle>
+			<ObjectPageHeader id="idObjectHeader"
+				objectTitle="{constants>/name}"
+				showMarkers="true"
+				markFlagged="true"
+				objectSubtitle="SAP Lead Software Engineer"
+				objectImageURI="./asset/avatar.png"
+				objectImageShape="Circle"
+				isObjectTitleAlwaysVisible="false"
+				isObjectSubtitleAlwaysVisible="false">
+				<actions>
+					<ObjectPageHeaderActionButton text="Download"
+						icon="sap-icon://download"
+						press="handleDownload"
+						tooltip="Download"
+						hideText="false"/>
+				</actions>
+			</ObjectPageHeader>
+		</headerTitle>
+		<headerContent>
+			<layout:VerticalLayout>
+				<layout:HorizontalLayout>
+					<m:Image height="24px"
+						width="24px"
+						src="./test-resources/sap/uxap/images/twitterIcon.png"/>
+					<m:Image height="24px"
+						width="24px"
+						src="./test-resources/sap/uxap/images/linkedInIcon.png"/>
+				</layout:HorizontalLayout>
+			</layout:VerticalLayout>
+		</headerContent>
+		<sections>
+			<ObjectPageSection title="General Information"
+				wrapTitle="true">
+				<subSections>
+					<ObjectPageSubSection title="Summary">
+						<blocks>
+							<m:FormattedText htmlText="{constants>/summary}"/>
+						</blocks>
+					</ObjectPageSubSection>
+
+					<ObjectPageSubSection title="Education">
+						<blocks>
+							<m:List items="{path: 'constants>/education'}">
+								<m:CustomListItem>
+									<m:VBox class="sapUiTinyMarginTopBottom">
+										<m:Label text="{constants>university}"
+											design="Bold"/>
+										<m:Text text="{constants>faculty}"/>
+										<m:Text text="{constants>specialization}"/>
+										<m:Text class="sapUiTinyMarginTop"
+											text="{constants>start} - {constants>end}"/>
+									</m:VBox>
+								</m:CustomListItem>
+							</m:List>
+						</blocks>
+					</ObjectPageSubSection>
+
+					<ObjectPageSubSection title="Work Experience">
+						<blocks>
+							<m:List items="{path: 'constants>/workExperience'}">
+								<m:CustomListItem>
+									<m:VBox class="sapUiTinyMarginTopBottom">
+										<m:Label text="{constants>company}"
+											design="Bold"/>
+										<m:Text text="{constants>position}"/>
+										<m:Text class="sapUiTinyMarginTop"
+											text="{constants>start} - {constants>end}"/>
+									</m:VBox>
+								</m:CustomListItem>
+							</m:List>
+						</blocks>
+					</ObjectPageSubSection>
+
+					<ObjectPageSubSection title="Technical Skills">
+						<blocks>
+							<m:List items="{path: 'constants>/technicalSkills'}">
+								<m:StandardListItem title="{constants>item}"
+									icon="sap-icon://add-coursebook"/>
+							</m:List>
+						</blocks>
+					</ObjectPageSubSection>
+
+					<ObjectPageSubSection title="Soft Skills">
+						<blocks>
+							<m:List items="{path: 'constants>/softSkills'}">
+								<m:StandardListItem title="{constants>item}"
+									icon="sap-icon://add-coursebook"/>
+							</m:List>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Skills"
+				wrapTitle="true">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:List items="{path: 'mockdata>/SkillGroups'}">
+								<m:CustomListItem>
+									<m:VBox class="sapUiTinyMarginTopBottom">
+										<m:Label text="{mockdata>title}"
+											design="Bold"/>
+
+										<m:List items="{path: 'mockdata>skills', templateShareable: false}">
+											<m:CustomListItem>
+												<m:Text text="{mockdata>title}"/>
+											</m:CustomListItem>
+										</m:List>
+
+									</m:VBox>
+								</m:CustomListItem>
+							</m:List>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Work experience"
+				wrapTitle="true">
+			</ObjectPageSection>
+		</sections>
+	</ObjectPageLayout>
+</mvc:View>

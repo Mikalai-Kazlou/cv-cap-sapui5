@@ -1,0 +1,13 @@
+{
+  "generator-ui5-app": {
+    "application": "cvsapui5",
+    "namespace": "com.exercise",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.120.29",
+    "author": "Mikalai Kazlou",
+    "initrepo": true,
+    "appId": "com.exercise.cvsapui5",
+    "appURI": "com/exercise/cvsapui5",
+    "setupCompleted": true
+  }
+}

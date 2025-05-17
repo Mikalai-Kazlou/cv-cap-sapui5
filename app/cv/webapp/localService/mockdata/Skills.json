@@ -1,0 +1,102 @@
+[
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 1,
+    "group_ID": 1,
+    "title": "Clean Code",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 2,
+    "group_ID": 1,
+    "title": "Design patterns",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 3,
+    "group_ID": 1,
+    "title": "Object-oriented Programming",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 4,
+    "group_ID": 1,
+    "title": "Performance Psychology",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 5,
+    "group_ID": 1,
+    "title": "Software Development",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 6,
+    "group_ID": 1,
+    "title": "Software Maintenance",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 7,
+    "group_ID": 1,
+    "title": "Software Quality",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 8,
+    "group_ID": 1,
+    "title": "SOLID (object-oriented design principles)",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 9,
+    "group_ID": 2,
+    "title": "English",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedBy": "anonymous",
+    "ID": 10,
+    "group_ID": 2,
+    "title": "Russian",
+    "level": 1
+  }
+]
