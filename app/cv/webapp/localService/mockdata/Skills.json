@@ -1,8 +1,8 @@
 [
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 1,
     "group_ID": 1,
@@ -10,9 +10,9 @@
     "level": 2
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 2,
     "group_ID": 1,
@@ -20,9 +20,9 @@
     "level": 2
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 3,
     "group_ID": 1,
@@ -30,9 +30,9 @@
     "level": 1
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 4,
     "group_ID": 1,
@@ -40,9 +40,9 @@
     "level": 2
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 5,
     "group_ID": 1,
@@ -50,9 +50,9 @@
     "level": 1
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 6,
     "group_ID": 1,
@@ -60,9 +60,9 @@
     "level": 2
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 7,
     "group_ID": 1,
@@ -70,9 +70,9 @@
     "level": 2
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 8,
     "group_ID": 1,
@@ -80,9 +80,9 @@
     "level": 2
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 9,
     "group_ID": 2,
@@ -90,13 +90,1493 @@
     "level": 2
   },
   {
-    "createdAt": "2025-05-17T03:17:25.507Z",
+    "createdAt": "2025-05-18T03:59:20.172Z",
     "createdBy": "anonymous",
-    "modifiedAt": "2025-05-17T03:17:25.507Z",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
     "modifiedBy": "anonymous",
     "ID": 10,
     "group_ID": 2,
     "title": "Russian",
     "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 11,
+    "group_ID": 3,
+    "title": "Interviewing",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 12,
+    "group_ID": 4,
+    "title": "Cloud Fundamentals",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 13,
+    "group_ID": 4,
+    "title": "Debugging",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 14,
+    "group_ID": 4,
+    "title": "Engineering Excellence",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 15,
+    "group_ID": 4,
+    "title": "GenAI Pair Programming",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 16,
+    "group_ID": 4,
+    "title": "Generative AI Fundamentals",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 17,
+    "group_ID": 4,
+    "title": "Prompt Engineering",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 18,
+    "group_ID": 4,
+    "title": "Prompt Engineering for Dev Productivity",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 19,
+    "group_ID": 4,
+    "title": "Software Design",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 20,
+    "group_ID": 4,
+    "title": "Software Development Methodology in Engineering",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 21,
+    "group_ID": 4,
+    "title": "Software Engineering Knowledge & Experience",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 22,
+    "group_ID": 4,
+    "title": "Software Engineering Practices",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 23,
+    "group_ID": 4,
+    "title": "Software Engineering Processes",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 24,
+    "group_ID": 4,
+    "title": "Troubleshooting",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 25,
+    "group_ID": 5,
+    "title": "Data Solution Architecture",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 26,
+    "group_ID": 5,
+    "title": "Database Performance",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 27,
+    "group_ID": 6,
+    "title": "Content Creation",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 28,
+    "group_ID": 6,
+    "title": "Front-End Development",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 29,
+    "group_ID": 7,
+    "title": "Engineering Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 30,
+    "group_ID": 8,
+    "title": "Performance Analysis",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 31,
+    "group_ID": 8,
+    "title": "Unit Testing",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 32,
+    "group_ID": 9,
+    "title": "Communication",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 33,
+    "group_ID": 9,
+    "title": "Content Delivery",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 34,
+    "group_ID": 9,
+    "title": "Giving and Receiving Feedback",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 35,
+    "group_ID": 9,
+    "title": "Negotiations",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 36,
+    "group_ID": 9,
+    "title": "Presenting",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 37,
+    "group_ID": 10,
+    "title": "Client Relationship Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 38,
+    "group_ID": 10,
+    "title": "Consultancy",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 39,
+    "group_ID": 11,
+    "title": "Diversity, Equity, and Inclusion",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 40,
+    "group_ID": 12,
+    "title": "Adaptability",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 41,
+    "group_ID": 12,
+    "title": "Continuous learning",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 42,
+    "group_ID": 13,
+    "title": "Developing Others",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 43,
+    "group_ID": 13,
+    "title": "Driving Change and Innovation",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 44,
+    "group_ID": 13,
+    "title": "Leadership",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 45,
+    "group_ID": 13,
+    "title": "Mentoring",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 46,
+    "group_ID": 13,
+    "title": "Professional Development Planning",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 47,
+    "group_ID": 14,
+    "title": "Ownership",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 48,
+    "group_ID": 14,
+    "title": "Result-orientation",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 49,
+    "group_ID": 14,
+    "title": "Self-Management",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 50,
+    "group_ID": 14,
+    "title": "Time Management",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 51,
+    "group_ID": 15,
+    "title": "Team Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 52,
+    "group_ID": 15,
+    "title": "Teamwork and Collaboration",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 53,
+    "group_ID": 16,
+    "title": "Agile",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 54,
+    "group_ID": 16,
+    "title": "Kanban",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 55,
+    "group_ID": 16,
+    "title": "Scrum",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 56,
+    "group_ID": 17,
+    "title": "Bench Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 57,
+    "group_ID": 17,
+    "title": "Career Advising",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 58,
+    "group_ID": 17,
+    "title": "Compensation Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 59,
+    "group_ID": 17,
+    "title": "Conducting one-on-one meetings",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 60,
+    "group_ID": 17,
+    "title": "Employee Recognition",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 61,
+    "group_ID": 17,
+    "title": "Employee Retention",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 62,
+    "group_ID": 17,
+    "title": "Exit Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 63,
+    "group_ID": 17,
+    "title": "Interviewing and Hiring",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 64,
+    "group_ID": 17,
+    "title": "Motivation",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 65,
+    "group_ID": 17,
+    "title": "Onboarding and Adaptation",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 66,
+    "group_ID": 17,
+    "title": "People Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 67,
+    "group_ID": 17,
+    "title": "Performance Development",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 68,
+    "group_ID": 17,
+    "title": "Unit Management",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 69,
+    "group_ID": 18,
+    "title": "ABAP",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 70,
+    "group_ID": 18,
+    "title": "CSS",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 71,
+    "group_ID": 18,
+    "title": "HTML",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 72,
+    "group_ID": 18,
+    "title": "JavaScript",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 73,
+    "group_ID": 18,
+    "title": "SASS/SCSS",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 74,
+    "group_ID": 18,
+    "title": "SQL",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 75,
+    "group_ID": 18,
+    "title": "TypeScript",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 76,
+    "group_ID": 18,
+    "title": "XML",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 77,
+    "group_ID": 19,
+    "title": "ABAP Web Services",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 78,
+    "group_ID": 19,
+    "title": "QUnit",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 79,
+    "group_ID": 19,
+    "title": "OPA5",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 80,
+    "group_ID": 19,
+    "title": "SAPUI5",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 81,
+    "group_ID": 19,
+    "title": "Unit Testing Tools",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 82,
+    "group_ID": 19,
+    "title": "Webpack",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 83,
+    "group_ID": 20,
+    "title": "Linux",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 84,
+    "group_ID": 20,
+    "title": "Microsoft Windows",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 85,
+    "group_ID": 21,
+    "title": "NPM",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 86,
+    "group_ID": 21,
+    "title": "Eclipse with ABAP Development Tools",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 87,
+    "group_ID": 21,
+    "title": "SAP ABAP Platform",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 88,
+    "group_ID": 21,
+    "title": "SAP NetWeaver",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 89,
+    "group_ID": 21,
+    "title": "SAP Business Technology Platform",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 90,
+    "group_ID": 22,
+    "title": "ABAP Core",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 91,
+    "group_ID": 22,
+    "title": "ABAP Dictionary",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 92,
+    "group_ID": 22,
+    "title": "ABAP Objects",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 93,
+    "group_ID": 22,
+    "title": "ABAP RESTful Programming Model (RAP)",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 94,
+    "group_ID": 22,
+    "title": "ABAP Syntax 7.5+",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 95,
+    "group_ID": 22,
+    "title": "ABAP Unit Tests",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 96,
+    "group_ID": 22,
+    "title": "ABAP Workbench Tools",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 97,
+    "group_ID": 22,
+    "title": "ALV Control",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 98,
+    "group_ID": 22,
+    "title": "AMDP",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 99,
+    "group_ID": 22,
+    "title": "Background Processing System",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 100,
+    "group_ID": 22,
+    "title": "Business Object Processing Framework (BOPF)",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 101,
+    "group_ID": 22,
+    "title": "Changing the SAP Standard",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 102,
+    "group_ID": 22,
+    "title": "Desktop Office Integration",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 103,
+    "group_ID": 22,
+    "title": "Enhancement Framework",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 104,
+    "group_ID": 22,
+    "title": "HANA",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 105,
+    "group_ID": 22,
+    "title": "Internet Application Server",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 106,
+    "group_ID": 22,
+    "title": "LSMW",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 107,
+    "group_ID": 22,
+    "title": "OpenSQL",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 108,
+    "group_ID": 22,
+    "title": "SAP ABAP in S/4HANA",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 109,
+    "group_ID": 22,
+    "title": "SAP API and Integration",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 110,
+    "group_ID": 22,
+    "title": "SAP BAPI/RFC",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 111,
+    "group_ID": 22,
+    "title": "SAP Basis",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 112,
+    "group_ID": 22,
+    "title": "SAP Business Application Studio",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 113,
+    "group_ID": 22,
+    "title": "SAP Business Workflow",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 114,
+    "group_ID": 22,
+    "title": "SAP CAP Annotations",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 115,
+    "group_ID": 22,
+    "title": "SAP CAP Authorization and Access Control",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 116,
+    "group_ID": 22,
+    "title": "SAP CAP based Node.JS",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 117,
+    "group_ID": 22,
+    "title": "SAP CAP CDS",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 118,
+    "group_ID": 22,
+    "title": "SAP CAP Deploy",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 119,
+    "group_ID": 22,
+    "title": "SAP CO Technical",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 120,
+    "group_ID": 22,
+    "title": "SAP Core Data Services",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 121,
+    "group_ID": 22,
+    "title": "SAP ERP",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 122,
+    "group_ID": 22,
+    "title": "SAP FI Technical",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 123,
+    "group_ID": 22,
+    "title": "SAP Fiori",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 124,
+    "group_ID": 22,
+    "title": "SAP Fiori Elements",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 125,
+    "group_ID": 22,
+    "title": "SAP Fiori Elements: Flexible Programming Model",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 126,
+    "group_ID": 22,
+    "title": "SAP Fiori launchpad",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 127,
+    "group_ID": 22,
+    "title": "SAP Frontend",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 128,
+    "group_ID": 22,
+    "title": "SAP Gateway",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 129,
+    "group_ID": 22,
+    "title": "SAP GUI",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 130,
+    "group_ID": 22,
+    "title": "SAP HANA SQL and SQL Script",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 131,
+    "group_ID": 22,
+    "title": "SAP Interactive Forms",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 132,
+    "group_ID": 22,
+    "title": "SAP MM Technical",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 133,
+    "group_ID": 22,
+    "title": "SAP NetWeaver",
+    "level": 1
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 134,
+    "group_ID": 22,
+    "title": "SAP Query",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 135,
+    "group_ID": 22,
+    "title": "SAP SD Technical",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 136,
+    "group_ID": 22,
+    "title": "SAP UI Development Tools",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 137,
+    "group_ID": 22,
+    "title": "SAP Web Services",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 138,
+    "group_ID": 22,
+    "title": "SAP XML library",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 139,
+    "group_ID": 22,
+    "title": "Smartforms",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 140,
+    "group_ID": 23,
+    "title": "1C Enterprise",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 141,
+    "group_ID": 23,
+    "title": "Chrome DevTools",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 142,
+    "group_ID": 23,
+    "title": "ESLint",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 143,
+    "group_ID": 23,
+    "title": "GitHub",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 144,
+    "group_ID": 23,
+    "title": "Jira",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 145,
+    "group_ID": 23,
+    "title": "Microsoft Excel",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 146,
+    "group_ID": 23,
+    "title": "Microsoft Word",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 147,
+    "group_ID": 23,
+    "title": "Postman",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 148,
+    "group_ID": 23,
+    "title": "SoapUI (Open Source)",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 149,
+    "group_ID": 23,
+    "title": "Visual Studio Code",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 150,
+    "group_ID": 24,
+    "title": "Git",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 151,
+    "group_ID": 24,
+    "title": "JSON",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 152,
+    "group_ID": 24,
+    "title": "OData",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 153,
+    "group_ID": 24,
+    "title": "REST API",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 154,
+    "group_ID": 24,
+    "title": "SOAP",
+    "level": 2
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 155,
+    "group_ID": 24,
+    "title": "UML",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 156,
+    "group_ID": 25,
+    "title": "Code Quality Tools",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 157,
+    "group_ID": 25,
+    "title": "Web UI Testing Tools",
+    "level": 3
+  },
+  {
+    "createdAt": "2025-05-18T03:59:20.172Z",
+    "createdBy": "anonymous",
+    "modifiedAt": "2025-05-18T03:59:20.172Z",
+    "modifiedBy": "anonymous",
+    "ID": 158,
+    "group_ID": 26,
+    "title": "Node.js",
+    "level": 3
   }
 ]
