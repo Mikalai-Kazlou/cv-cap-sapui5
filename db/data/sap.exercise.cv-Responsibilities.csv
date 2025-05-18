@@ -1,0 +1,12 @@
+ID,parent_ID,title
+1,1,Review and implementation of SAP development guidelines on the project
+2,1,Create a common library of reusable development objects
+3,1,Review and adjustment of ATC variants for code base static checks
+4,1,"Sprint planning, monitoring, and preparation for development"
+5,1,Estimation of development tasks
+6,1,Allocating tasks among team members
+7,1,Presenting sprint results to stakeholders in demo sessions
+8,1,Communication with the Customer's In-house Team
+9,1,Investigating and improving bottlenecks in existing implementations
+10,1,Transport requests management
+11,1,Conducting code reviews and refactoring

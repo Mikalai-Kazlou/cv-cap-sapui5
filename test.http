@@ -1,8 +1,10 @@
 ### Metadata
 GET http://localhost:4004/cv/$metadata
 ### Skill Groups
-GET http://localhost:4004/cv/SkillGroups?$select=ID,title,createdAt
+GET http://localhost:4004/cv/SkillGroups
 ### Skills
-GET http://localhost:4004/cv/Skills?$select=ID,group_ID,title,level,createdAt
-### Skill Groups & Skills
-GET http://localhost:4004/cv/SkillGroups?$select=ID,title,createdAt&$expand=skills($select=ID,group_ID,title,level,createdAt)
+GET http://localhost:4004/cv/Skills
+### Skill Groups (expand)
+GET http://localhost:4004/cv/SkillGroups?$expand=skills
+### Work Experience (expand)
+GET http://localhost:4004/cv/WorkExperiences?$expand=projectRoles($expand=child),responsibilities,technologies($expand=child)

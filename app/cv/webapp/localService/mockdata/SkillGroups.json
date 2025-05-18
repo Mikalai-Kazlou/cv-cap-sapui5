@@ -1,209 +1,105 @@
 [
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 1,
     "title": "Academic Disciplines / Applied Sciences"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 2,
     "title": "Academic Disciplines / Humanities"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 3,
     "title": "Business Functions / Corporate Communications"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 4,
     "title": "Engineering Practices / Advanced Technology"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 5,
     "title": "Engineering Practices / Data & Analytics"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 6,
     "title": "Engineering Practices / Digital Engagement"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 7,
     "title": "Engineering Practices / Management"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 8,
     "title": "Engineering Practices / Quality Engineering"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 9,
     "title": "Leadership & Soft Skills / Communication"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 10,
     "title": "Leadership & Soft Skills / Consultancy"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 11,
     "title": "Leadership & Soft Skills / Diversity, Equity, and Inclusion"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 12,
     "title": "Leadership & Soft Skills / Growth Mindset"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 13,
     "title": "Leadership & Soft Skills / Leadership"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 14,
     "title": "Leadership & Soft Skills / Ownership"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 15,
     "title": "Leadership & Soft Skills / Teamwork and Collaboration"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 16,
     "title": "Managerial / General Management"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 17,
     "title": "Managerial / People Management"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 18,
     "title": "Technologies / Computer Languages"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 19,
     "title": "Technologies / Frameworks"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 20,
     "title": "Technologies / Operating System"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 21,
     "title": "Technologies / Platforms"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 22,
     "title": "Technologies / SAP"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 23,
     "title": "Technologies / Solutions"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 24,
     "title": "Technologies / Standards"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 25,
     "title": "Technologies / Tools"
   },
   {
-    "createdAt": "2025-05-18T03:59:20.172Z",
-    "createdBy": "anonymous",
-    "modifiedAt": "2025-05-18T03:59:20.172Z",
-    "modifiedBy": "anonymous",
     "ID": 26,
     "title": "Technologies / Web/Application Server"
   }

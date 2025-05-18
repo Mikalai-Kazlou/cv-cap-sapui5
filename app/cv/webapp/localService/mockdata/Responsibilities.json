@@ -1,0 +1,57 @@
+[
+  {
+    "ID": 1,
+    "parent_ID": 1,
+    "title": "Review and implementation of SAP development guidelines on the project"
+  },
+  {
+    "ID": 2,
+    "parent_ID": 1,
+    "title": "Create a common library of reusable development objects"
+  },
+  {
+    "ID": 3,
+    "parent_ID": 1,
+    "title": "Review and adjustment of ATC variants for code base static checks"
+  },
+  {
+    "ID": 4,
+    "parent_ID": 1,
+    "title": "Sprint planning, monitoring, and preparation for development"
+  },
+  {
+    "ID": 5,
+    "parent_ID": 1,
+    "title": "Estimation of development tasks"
+  },
+  {
+    "ID": 6,
+    "parent_ID": 1,
+    "title": "Allocating tasks among team members"
+  },
+  {
+    "ID": 7,
+    "parent_ID": 1,
+    "title": "Presenting sprint results to stakeholders in demo sessions"
+  },
+  {
+    "ID": 8,
+    "parent_ID": 1,
+    "title": "Communication with the Customer's In-house Team"
+  },
+  {
+    "ID": 9,
+    "parent_ID": 1,
+    "title": "Investigating and improving bottlenecks in existing implementations"
+  },
+  {
+    "ID": 10,
+    "parent_ID": 1,
+    "title": "Transport requests management"
+  },
+  {
+    "ID": 11,
+    "parent_ID": 1,
+    "title": "Conducting code reviews and refactoring"
+  }
+]

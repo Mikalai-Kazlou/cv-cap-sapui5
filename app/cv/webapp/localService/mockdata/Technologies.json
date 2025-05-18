@@ -1,0 +1,54 @@
+[
+  {
+    "ID": 1,
+    "title": "Smartforms"
+  },
+  {
+    "ID": 2,
+    "title": "SAP Core Data Services"
+  },
+  {
+    "ID": 3,
+    "title": "SAP BAPI/RFC"
+  },
+  {
+    "ID": 4,
+    "title": "SAP ABAP in S/4HANA"
+  },
+  {
+    "ID": 5,
+    "title": "OData"
+  },
+  {
+    "ID": 6,
+    "title": "Enhancement Framework"
+  },
+  {
+    "ID": 7,
+    "title": "ABAP Objects"
+  },
+  {
+    "ID": 8,
+    "title": "ABAP Core"
+  },
+  {
+    "ID": 9,
+    "title": "Postman"
+  },
+  {
+    "ID": 10,
+    "title": "Eclipse with ABAP Development Tools"
+  },
+  {
+    "ID": 11,
+    "title": "ABAP Workbench Tools"
+  },
+  {
+    "ID": 12,
+    "title": "Oracle RDBMS"
+  },
+  {
+    "ID": 13,
+    "title": "HANA"
+  }
+]
