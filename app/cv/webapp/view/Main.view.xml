@@ -125,8 +125,47 @@
 				</subSections>
 			</ObjectPageSection>
 
-			<ObjectPageSection title="Work experience"
+			<ObjectPageSection title="Work Experience"
 				wrapTitle="true">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:List items="{path: 'mockdata>/WorkExperiences'}">
+								<m:CustomListItem>
+									<m:VBox class="sapUiTinyMarginTopBottom">
+										<m:HBox>
+											<m:Label text="Customer:"
+												design="Bold"/>
+											<m:Text class="sapUiTinyMarginBegin"
+												text="{mockdata>customer}"/>
+										</m:HBox>
+
+										<m:VBox class="sapUiTinyMarginTopBottom">
+											<m:Label text="Responsibilities"
+												design="Bold"/>
+											<m:List items="{path: 'mockdata>responsibilities', templateShareable: false}">
+												<m:CustomListItem>
+													<m:Text text="{mockdata>title}"/>
+												</m:CustomListItem>
+											</m:List>
+										</m:VBox>
+
+										<m:VBox class="sapUiTinyMarginTopBottom">
+											<m:Label text="Technologies"
+												design="Bold"/>
+											<m:List items="{path: 'mockdata>technologies', templateShareable: false}">
+												<m:CustomListItem>
+													<m:Text text="{mockdata>child/title}"/>
+												</m:CustomListItem>
+											</m:List>
+										</m:VBox>
+
+									</m:VBox>
+								</m:CustomListItem>
+							</m:List>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
 			</ObjectPageSection>
 		</sections>
 	</ObjectPageLayout>

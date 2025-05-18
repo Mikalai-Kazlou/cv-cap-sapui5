@@ -6,9 +6,6 @@
   <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
     <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
   </edmx:Reference>
-  <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
-    <edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
-  </edmx:Reference>
   <edmx:DataServices>
     <Schema Namespace="CVService" xmlns="http://docs.oasis-open.org/odata/ns/edm">
       <EntityContainer Name="EntityContainer">
@@ -22,20 +19,50 @@
           <NavigationPropertyBinding Path="texts" Target="Skills_texts"/>
           <NavigationPropertyBinding Path="localized" Target="Skills_texts"/>
         </EntitySet>
+        <EntitySet Name="WorkExperiences" EntityType="CVService.WorkExperiences">
+          <NavigationPropertyBinding Path="projectRoles" Target="WorkExperiencesToProjectRoles"/>
+          <NavigationPropertyBinding Path="responsibilities" Target="Responsibilities"/>
+          <NavigationPropertyBinding Path="technologies" Target="WorkExperiencesToTechnologies"/>
+          <NavigationPropertyBinding Path="texts" Target="WorkExperiences_texts"/>
+          <NavigationPropertyBinding Path="localized" Target="WorkExperiences_texts"/>
+        </EntitySet>
+        <EntitySet Name="WorkExperiencesToProjectRoles" EntityType="CVService.WorkExperiencesToProjectRoles">
+          <NavigationPropertyBinding Path="parent" Target="WorkExperiences"/>
+          <NavigationPropertyBinding Path="child" Target="ProjectRoles"/>
+        </EntitySet>
+        <EntitySet Name="WorkExperiencesToTechnologies" EntityType="CVService.WorkExperiencesToTechnologies">
+          <NavigationPropertyBinding Path="parent" Target="WorkExperiences"/>
+          <NavigationPropertyBinding Path="child" Target="Technologies"/>
+        </EntitySet>
+        <EntitySet Name="ProjectRoles" EntityType="CVService.ProjectRoles">
+          <NavigationPropertyBinding Path="texts" Target="ProjectRoles_texts"/>
+          <NavigationPropertyBinding Path="localized" Target="ProjectRoles_texts"/>
+        </EntitySet>
+        <EntitySet Name="Responsibilities" EntityType="CVService.Responsibilities">
+          <NavigationPropertyBinding Path="parent" Target="WorkExperiences"/>
+          <NavigationPropertyBinding Path="texts" Target="Responsibilities_texts"/>
+          <NavigationPropertyBinding Path="localized" Target="Responsibilities_texts"/>
+        </EntitySet>
+        <EntitySet Name="Technologies" EntityType="CVService.Technologies">
+          <NavigationPropertyBinding Path="texts" Target="Technologies_texts"/>
+          <NavigationPropertyBinding Path="localized" Target="Technologies_texts"/>
+        </EntitySet>
         <EntitySet Name="SkillGroups_texts" EntityType="CVService.SkillGroups_texts"/>
         <EntitySet Name="Skills_texts" EntityType="CVService.Skills_texts"/>
+        <EntitySet Name="WorkExperiences_texts" EntityType="CVService.WorkExperiences_texts"/>
+        <EntitySet Name="ProjectRoles_texts" EntityType="CVService.ProjectRoles_texts"/>
+        <EntitySet Name="Responsibilities_texts" EntityType="CVService.Responsibilities_texts"/>
+        <EntitySet Name="Technologies_texts" EntityType="CVService.Technologies_texts"/>
       </EntityContainer>
       <EntityType Name="SkillGroups">
         <Key>
           <PropertyRef Name="ID"/>
         </Key>
-        <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
-        <Property Name="createdBy" Type="Edm.String" MaxLength="255"/>
-        <Property Name="modifiedAt" Type="Edm.DateTimeOffset" Precision="7"/>
-        <Property Name="modifiedBy" Type="Edm.String" MaxLength="255"/>
         <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
         <Property Name="title" Type="Edm.String" MaxLength="100"/>
-        <NavigationProperty Name="skills" Type="Collection(CVService.Skills)" Partner="group"/>
+        <NavigationProperty Name="skills" Type="Collection(CVService.Skills)" Partner="group">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
         <NavigationProperty Name="texts" Type="Collection(CVService.SkillGroups_texts)">
           <OnDelete Action="Cascade"/>
         </NavigationProperty>
@@ -47,10 +74,6 @@
         <Key>
           <PropertyRef Name="ID"/>
         </Key>
-        <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
-        <Property Name="createdBy" Type="Edm.String" MaxLength="255"/>
-        <Property Name="modifiedAt" Type="Edm.DateTimeOffset" Precision="7"/>
-        <Property Name="modifiedBy" Type="Edm.String" MaxLength="255"/>
         <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
         <NavigationProperty Name="group" Type="CVService.SkillGroups" Partner="skills">
           <ReferentialConstraint Property="group_ID" ReferencedProperty="ID"/>
@@ -62,6 +85,103 @@
           <OnDelete Action="Cascade"/>
         </NavigationProperty>
         <NavigationProperty Name="localized" Type="CVService.Skills_texts">
+          <ReferentialConstraint Property="ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+      </EntityType>
+      <EntityType Name="WorkExperiences">
+        <Key>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="workStart" Type="Edm.Date"/>
+        <Property Name="workFinish" Type="Edm.Date"/>
+        <Property Name="company" Type="Edm.String" MaxLength="100"/>
+        <Property Name="companyLink" Type="Edm.String" MaxLength="100"/>
+        <Property Name="customer" Type="Edm.String" MaxLength="100"/>
+        <NavigationProperty Name="projectRoles" Type="Collection(CVService.WorkExperiencesToProjectRoles)" Partner="parent">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="responsibilities" Type="Collection(CVService.Responsibilities)" Partner="parent">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="technologies" Type="Collection(CVService.WorkExperiencesToTechnologies)" Partner="parent">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="texts" Type="Collection(CVService.WorkExperiences_texts)">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="localized" Type="CVService.WorkExperiences_texts">
+          <ReferentialConstraint Property="ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+      </EntityType>
+      <EntityType Name="WorkExperiencesToProjectRoles">
+        <Key>
+          <PropertyRef Name="parent_ID"/>
+          <PropertyRef Name="child_ID"/>
+        </Key>
+        <NavigationProperty Name="parent" Type="CVService.WorkExperiences" Partner="projectRoles">
+          <ReferentialConstraint Property="parent_ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+        <Property Name="parent_ID" Type="Edm.Int32" Nullable="false"/>
+        <NavigationProperty Name="child" Type="CVService.ProjectRoles">
+          <ReferentialConstraint Property="child_ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+        <Property Name="child_ID" Type="Edm.Int32" Nullable="false"/>
+      </EntityType>
+      <EntityType Name="WorkExperiencesToTechnologies">
+        <Key>
+          <PropertyRef Name="parent_ID"/>
+          <PropertyRef Name="child_ID"/>
+        </Key>
+        <NavigationProperty Name="parent" Type="CVService.WorkExperiences" Partner="technologies">
+          <ReferentialConstraint Property="parent_ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+        <Property Name="parent_ID" Type="Edm.Int32" Nullable="false"/>
+        <NavigationProperty Name="child" Type="CVService.Technologies">
+          <ReferentialConstraint Property="child_ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+        <Property Name="child_ID" Type="Edm.Int32" Nullable="false"/>
+      </EntityType>
+      <EntityType Name="ProjectRoles">
+        <Key>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="title" Type="Edm.String" MaxLength="60"/>
+        <NavigationProperty Name="texts" Type="Collection(CVService.ProjectRoles_texts)">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="localized" Type="CVService.ProjectRoles_texts">
+          <ReferentialConstraint Property="ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+      </EntityType>
+      <EntityType Name="Responsibilities">
+        <Key>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <NavigationProperty Name="parent" Type="CVService.WorkExperiences" Partner="responsibilities">
+          <ReferentialConstraint Property="parent_ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+        <Property Name="parent_ID" Type="Edm.Int32"/>
+        <Property Name="title" Type="Edm.String" MaxLength="255"/>
+        <NavigationProperty Name="texts" Type="Collection(CVService.Responsibilities_texts)">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="localized" Type="CVService.Responsibilities_texts">
+          <ReferentialConstraint Property="ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+      </EntityType>
+      <EntityType Name="Technologies">
+        <Key>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="title" Type="Edm.String" MaxLength="100"/>
+        <NavigationProperty Name="texts" Type="Collection(CVService.Technologies_texts)">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="localized" Type="CVService.Technologies_texts">
           <ReferentialConstraint Property="ID" ReferencedProperty="ID"/>
         </NavigationProperty>
       </EntityType>
@@ -83,60 +203,43 @@
         <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
         <Property Name="title" Type="Edm.String" MaxLength="100"/>
       </EntityType>
-      <Annotations Target="CVService.SkillGroups/createdAt">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Immutable" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Common.Label" String="Created On"/>
-      </Annotations>
-      <Annotations Target="CVService.SkillGroups/createdBy">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Immutable" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Core.Description" String="User's unique ID"/>
-        <Annotation Term="Common.Label" String="Created By"/>
-      </Annotations>
-      <Annotations Target="CVService.SkillGroups/modifiedAt">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Common.Label" String="Changed On"/>
-      </Annotations>
-      <Annotations Target="CVService.SkillGroups/modifiedBy">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Core.Description" String="User's unique ID"/>
-        <Annotation Term="Common.Label" String="Changed By"/>
-      </Annotations>
-      <Annotations Target="CVService.Skills/createdAt">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Immutable" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Common.Label" String="Created On"/>
-      </Annotations>
-      <Annotations Target="CVService.Skills/createdBy">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Immutable" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Core.Description" String="User's unique ID"/>
-        <Annotation Term="Common.Label" String="Created By"/>
-      </Annotations>
-      <Annotations Target="CVService.Skills/modifiedAt">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Common.Label" String="Changed On"/>
-      </Annotations>
-      <Annotations Target="CVService.Skills/modifiedBy">
-        <Annotation Term="UI.HiddenFilter" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-        <Annotation Term="Core.Description" String="User's unique ID"/>
-        <Annotation Term="Common.Label" String="Changed By"/>
-      </Annotations>
-      <Annotations Target="CVService.SkillGroups_texts/locale">
-        <Annotation Term="Common.Label" String="Language Code"/>
-      </Annotations>
-      <Annotations Target="CVService.Skills_texts/locale">
-        <Annotation Term="Common.Label" String="Language Code"/>
-      </Annotations>
+      <EntityType Name="WorkExperiences_texts">
+        <Key>
+          <PropertyRef Name="locale"/>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="locale" Type="Edm.String" MaxLength="14" Nullable="false"/>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="company" Type="Edm.String" MaxLength="100"/>
+        <Property Name="customer" Type="Edm.String" MaxLength="100"/>
+      </EntityType>
+      <EntityType Name="ProjectRoles_texts">
+        <Key>
+          <PropertyRef Name="locale"/>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="locale" Type="Edm.String" MaxLength="14" Nullable="false"/>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="title" Type="Edm.String" MaxLength="60"/>
+      </EntityType>
+      <EntityType Name="Responsibilities_texts">
+        <Key>
+          <PropertyRef Name="locale"/>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="locale" Type="Edm.String" MaxLength="14" Nullable="false"/>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="title" Type="Edm.String" MaxLength="255"/>
+      </EntityType>
+      <EntityType Name="Technologies_texts">
+        <Key>
+          <PropertyRef Name="locale"/>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="locale" Type="Edm.String" MaxLength="14" Nullable="false"/>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="title" Type="Edm.String" MaxLength="100"/>
+      </EntityType>
     </Schema>
   </edmx:DataServices>
 </edmx:Edmx>
