@@ -18,8 +18,7 @@ entity WorkExperiences {
   key ID               : Integer;
       workStart        : Date;
       workFinish       : Date;
-      company          : localized String(100);
-      companyLink      : String(100);
+      company          : Association to Companies;
       customer         : localized String(100);
       projectRoles     : Composition of many WorkExperiencesToProjectRoles
                            on projectRoles.parent = $self;
@@ -29,14 +28,22 @@ entity WorkExperiences {
                            on technologies.parent = $self;
 }
 
+entity Companies {
+  key ID    : Integer;
+      title : localized String(100);
+      link  : String(100);
+}
+
 entity WorkExperiencesToProjectRoles {
   key parent : Association to WorkExperiences;
   key child  : Association to ProjectRoles;
+      order  : Integer;
 }
 
 entity WorkExperiencesToTechnologies {
   key parent : Association to WorkExperiences;
   key child  : Association to Technologies;
+      order  : Integer;
 }
 
 entity ProjectRoles {

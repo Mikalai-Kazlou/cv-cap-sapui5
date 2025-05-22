@@ -1,14 +1,74 @@
 ID,title
-1,Smartforms
-2,SAP Core Data Services
-3,SAP BAPI/RFC
-4,SAP ABAP in S/4HANA
-5,OData
-6,Enhancement Framework
-7,ABAP Objects
-8,ABAP Core
-9,Postman
-10,Eclipse with ABAP Development Tools
-11,ABAP Workbench Tools
-12,Oracle RDBMS
-13,HANA
+1,1C:Enterprise 7.7
+2,1C:Enterprise 8.1
+3,ABAP CDS
+4,ABAP Core
+5,ABAP Objects
+6,ABAP OO
+7,ABAP Platform 2021
+8,ABAP Workbench Tools
+9,abapGIT
+10,Active Directory
+11,Adobe Lifecycle Designer
+12,Altova XMLSpy
+13,ALV grids
+14,AMDP
+15,Application Log
+16,AvCSP
+17,Background jobs
+18,BADI
+19,BAPI
+20,Data composition system (DCS)
+21,Data upload/download
+22,DBeaver
+23,Eclipse (ABAP Development Tools)
+24,Eclipse with ABAP Development Tools
+25,EDI Connector
+26,EDS Signer
+27,Email templates
+28,Enhancement Framework
+29,Enhancements
+30,Enterprise services
+31,Ethernet
+32,HANA
+33,HTTP-services
+34,IMAP
+35,LSMW
+36,MaxDB
+37,MS Excel
+38,MS SQL
+39,OData
+40,ODBC
+41,Oracle RDBMS
+42,POP3
+43,PostgREST
+44,Postman
+45,"Printable forms (1C, Word, Excel)"
+46,Printable forms (PDF)
+47,"Printable forms (PDF, Word, Excel)"
+48,"Printable forms (smartform, PDF, Word, Excel including OXML)"
+49,Query Builder
+50,Report Builder
+51,RFC
+52,SAP ABAP in S/4HANA
+53,SAP BAPI/RFC
+54,SAP Business Object events
+55,SAP Business Objects
+56,SAP Content Server 6.50
+57,SAP Content Server 7.50
+58,SAP Core Data Services
+59,SAP Gateway Service Builder
+60,SAP HANA
+61,SAP Netweaver 7.0
+62,SAP Netweaver 7.5
+63,SAP NetWeaver Add-On for Event Enablement
+64,SAP Query
+65,SAPUI5
+66,Smartforms
+67,SMTP
+68,Soap UI
+69,Swagger
+70,Userexits
+71,Visual Studio Code
+72,Web-services
+73,XML

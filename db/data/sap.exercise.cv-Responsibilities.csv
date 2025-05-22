@@ -1,12 +1,104 @@
 ID,parent_ID,title
-1,1,Review and implementation of SAP development guidelines on the project
-2,1,Create a common library of reusable development objects
-3,1,Review and adjustment of ATC variants for code base static checks
-4,1,"Sprint planning, monitoring, and preparation for development"
-5,1,Estimation of development tasks
-6,1,Allocating tasks among team members
-7,1,Presenting sprint results to stakeholders in demo sessions
-8,1,Communication with the Customer's In-house Team
-9,1,Investigating and improving bottlenecks in existing implementations
-10,1,Transport requests management
-11,1,Conducting code reviews and refactoring
+1101,11,Review and implementation of SAP development guidelines on the project
+1102,11,Create a common library of reusable development objects
+1103,11,Review and adjustment of ATC variants for code base static checks
+1104,11,"Sprint planning, monitoring, and preparation for development"
+1105,11,Estimation of development tasks
+1106,11,Allocating tasks among team members
+1107,11,Presenting sprint results to stakeholders in demo sessions
+1108,11,Communication with the Customer's In-house Team
+1109,11,Investigating and improving bottlenecks in existing implementations
+1110,11,Transport requests management
+1111,11,Conducting code reviews and refactoring
+1001,10,Development of RFCs to integration with external non-SAP system
+1002,10,Investigation and creation business object events based on the SAP NetWeaver Add-On for Event Enablement
+1003,10,Extending the functionality of standard business objects
+1004,10,Enhancement of standard SAP functionality for raising custom events
+1005,10,Implementation of outbound messages monitoring
+1006,10,Making changes to printable documents based on smartforms
+901,9,Full stack applications development (ABAP + SAPUI5)
+902,9,"Adjusting data exchange between SAP and non-SAP systems and services (AWS, Datalake)"
+903,9,Implementation of PostgREST interface between SAP and Datahub
+904,9,Encrypt / decrypt data with HashiCorp Vault service
+905,9,Reorganization of data encryption / decryption infrastructure on the project
+906,9,Implementation of infrastructure for creating Swagger descriptions of project http-services
+907,9,Creation of advanced customizing tables based on cluster of maintenance views
+908,9,Dynamic programming and DB updating
+909,9,Enhancing standard transactions by adding new screen fields and their processing logic
+910,9,Development of email notifications
+911,9,Writing unit-tests for backend and frontend developments
+912,9,System performance analysis
+801,8,Technical design and back-end development of Tax Compliance Tracking Tool (TCTT) application
+802,8,Technical design and back-end development of Accrual Trend module for FC Checklist application
+803,8,Development of backend part of reports for the Fiori application
+804,8,Development and enhancement OData services using SAP Gateway
+805,8,Development of applications using the BOPF architecture based on CDS
+806,8,Development of http-service for integration with SSO (OAuth 2.0)
+807,8,Integration with email processing automation system
+808,8,Add encrypt / decrypt functionality for FC Checklist attachments
+809,8,Participation in HashiCorp Vault configuring
+810,8,Participation in development of PostgREST API component for data receiving from Datalake
+811,8,Creation and usage authorization objects to differentiate roles within an application
+812,8,"Working with integrated functions of third-party services, such as AWS S3, HashiCorp Vault"
+813,8,Development of email notifications using SAP Email Templates functionality
+814,8,Filters correction for OData service using Code-Based Implementation
+701,7,"Creation of complex reports (ALV, Dynpro)"
+702,7,"Development of business programs for the mass creation of FI, MM, SD and other documents"
+703,7,"Creation of printable forms (smartform, PDF, Word, Excel), including OXML"
+704,7,"Creation and support of interfaces between SAP and other systems (files, web-services)"
+705,7,"Extension of standard programs and transactions with custom functionality using BADI, userexits, enhancements"
+706,7,Support for updating the system to the new version of SAP Basis
+707,7,Download data with service programs and LSMW
+708,7,Creation and maintenance of background jobs
+709,7,SQL tuning and performance optimization
+710,7,Creation of multilanguage interfaces
+711,7,Search of notes with the SAP support portal for troubleshooting
+712,7,Writing technical and user documentation
+601,6,Changing the electronic document flow system for integration with the RE-FX module
+602,6,Development of an interface for the automatic creation of RE-FX contracts based on contract cards of the electronic document flow system
+603,6,Development of an interface for the automatic change of the payment terms of RE-FX contracts based on additional agreement cards of the electronic document flow system
+604,6,Development of a program for loading and updating address data provided by the National Cadastral Agency (NCA) (csv files)
+605,6,Extension of the architectural object card and the RE-FX contract card user functionality
+606,6,Support of uploading data to AWP Declarant
+501,5,Development of electronic document cards using the DFS framework
+502,5,Integration of electronic document cards with the EDI-provider's EDS signing tool (EDS Signer)
+503,5,Development of the XML interface between SAP ERP and the EDI-provider's connection tool (EDI Connector)
+504,5,Development of functionality for signing multiple documents in a zip-archive
+505,5,Integration with the service of signing documents using a mobile digital signature
+506,5,Creation of printable forms of documents (PDF)
+507,5,Development of functionality for mass printing of a package of documents
+508,5,Writing technical and user documentation
+401,4,Development of the EDS infrastructure configuration for local machines and VDI
+402,4,Development of the automated uploading of custom EDS certificates
+403,4,Participation in the integration of EDS Avest into SAP ERP (SAP SSF)
+404,4,Changing signing process of printable forms of documents to signing using EDS
+405,4,Development of functionality for mass signing of a package of documents
+406,4,"Creation of printable forms of documents (Word, Excel, PDF)"
+407,4,Writing technical and user documentation
+408,4,Training users to work with new functionality
+301,3,Development and support of the accounting system of the company
+302,3,Support for accounting systems of subsidiaries
+303,3,Identification of problems and needs of the current processes of the company
+304,3,Coordination of actions of the development team and system administrators
+305,3,Purchase and maintenance of IT equipment and software
+306,3,"Support and configuration of company servers (Internet, file, e-mail)"
+307,3,Support and extension of the local corporate network
+308,3,Support and extension of the numbering capacity of the private automatic branch exchange (PABX)
+309,3,Working with suppliers and contractors in the IT field
+201,2,Support and extension of functionality for the following system modules
+202,2,Maintaining design and technological documentation
+203,2,Calculation of the requirements for materials at each stage of the production process
+204,2,Formation of the cost of finished products
+205,2,Maintenance of warranty and post-warranty service
+206,2,Conducting procurement operations and monitoring reorder points
+207,2,Monitoring of warehouses in real time
+208,2,Reservation of goods at the request of customers
+209,2,Quality control of finished products
+101,1,Development of documents and reports for production processes
+102,1,Development of programs and reports for calculating depreciation of fixed assets
+103,1,Development of programs and reports for payroll calculation
+104,1,Conversion and loading of initial data from old systems
+105,1,File interfaces between company's systems
+106,1,Transfer of systems to a new chart of accounts
+107,1,"Development of printable forms (1C, Word, Excel)"
+108,1,Installing and configuring software

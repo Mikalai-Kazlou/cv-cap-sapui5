@@ -7,4 +7,4 @@ GET http://localhost:4004/cv/Skills
 ### Skill Groups (expand)
 GET http://localhost:4004/cv/SkillGroups?$expand=skills
 ### Work Experience (expand)
-GET http://localhost:4004/cv/WorkExperiences?$expand=projectRoles($expand=child),responsibilities,technologies($expand=child)
+GET http://localhost:4004/cv/WorkExperiences?$expand=company,projectRoles($orderby=order;$expand=child),responsibilities,technologies($orderby=order;$expand=child)&$orderby=ID desc
