@@ -3,7 +3,7 @@
     "application": "cvsapui5",
     "namespace": "com.exercise",
     "framework": "SAPUI5",
-    "frameworkVersion": "1.120.29",
+    "frameworkVersion": "1.120.30",
     "author": "Mikalai Kazlou",
     "initrepo": true,
     "appId": "com.exercise.cvsapui5",
