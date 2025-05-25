@@ -1,57 +1,517 @@
 [
   {
-    "ID": 1,
+    "ID": 101,
     "parent_ID": 1,
+    "title": "Development of documents and reports for production processes"
+  },
+  {
+    "ID": 102,
+    "parent_ID": 1,
+    "title": "Development of programs and reports for calculating depreciation of fixed assets"
+  },
+  {
+    "ID": 103,
+    "parent_ID": 1,
+    "title": "Development of programs and reports for payroll calculation"
+  },
+  {
+    "ID": 104,
+    "parent_ID": 1,
+    "title": "Conversion and loading of initial data from old systems"
+  },
+  {
+    "ID": 105,
+    "parent_ID": 1,
+    "title": "File interfaces between company's systems"
+  },
+  {
+    "ID": 106,
+    "parent_ID": 1,
+    "title": "Transfer of systems to a new chart of accounts"
+  },
+  {
+    "ID": 107,
+    "parent_ID": 1,
+    "title": "Development of printable forms (1C, Word, Excel)"
+  },
+  {
+    "ID": 108,
+    "parent_ID": 1,
+    "title": "Installing and configuring software"
+  },
+  {
+    "ID": 201,
+    "parent_ID": 2,
+    "title": "Support and extension of functionality for the following system modules"
+  },
+  {
+    "ID": 202,
+    "parent_ID": 2,
+    "title": "Maintaining design and technological documentation"
+  },
+  {
+    "ID": 203,
+    "parent_ID": 2,
+    "title": "Calculation of the requirements for materials at each stage of the production process"
+  },
+  {
+    "ID": 204,
+    "parent_ID": 2,
+    "title": "Formation of the cost of finished products"
+  },
+  {
+    "ID": 205,
+    "parent_ID": 2,
+    "title": "Maintenance of warranty and post-warranty service"
+  },
+  {
+    "ID": 206,
+    "parent_ID": 2,
+    "title": "Conducting procurement operations and monitoring reorder points"
+  },
+  {
+    "ID": 207,
+    "parent_ID": 2,
+    "title": "Monitoring of warehouses in real time"
+  },
+  {
+    "ID": 208,
+    "parent_ID": 2,
+    "title": "Reservation of goods at the request of customers"
+  },
+  {
+    "ID": 209,
+    "parent_ID": 2,
+    "title": "Quality control of finished products"
+  },
+  {
+    "ID": 301,
+    "parent_ID": 3,
+    "title": "Development and support of the accounting system of the company"
+  },
+  {
+    "ID": 302,
+    "parent_ID": 3,
+    "title": "Support for accounting systems of subsidiaries"
+  },
+  {
+    "ID": 303,
+    "parent_ID": 3,
+    "title": "Identification of problems and needs of the current processes of the company"
+  },
+  {
+    "ID": 304,
+    "parent_ID": 3,
+    "title": "Coordination of actions of the development team and system administrators"
+  },
+  {
+    "ID": 305,
+    "parent_ID": 3,
+    "title": "Purchase and maintenance of IT equipment and software"
+  },
+  {
+    "ID": 306,
+    "parent_ID": 3,
+    "title": "Support and configuration of company servers (Internet, file, e-mail)"
+  },
+  {
+    "ID": 307,
+    "parent_ID": 3,
+    "title": "Support and extension of the local corporate network"
+  },
+  {
+    "ID": 308,
+    "parent_ID": 3,
+    "title": "Support and extension of the numbering capacity of the private automatic branch exchange (PABX)"
+  },
+  {
+    "ID": 309,
+    "parent_ID": 3,
+    "title": "Working with suppliers and contractors in the IT field"
+  },
+  {
+    "ID": 401,
+    "parent_ID": 4,
+    "title": "Development of the EDS infrastructure configuration for local machines and VDI"
+  },
+  {
+    "ID": 402,
+    "parent_ID": 4,
+    "title": "Development of the automated uploading of custom EDS certificates"
+  },
+  {
+    "ID": 403,
+    "parent_ID": 4,
+    "title": "Participation in the integration of EDS Avest into SAP ERP (SAP SSF)"
+  },
+  {
+    "ID": 404,
+    "parent_ID": 4,
+    "title": "Changing signing process of printable forms of documents to signing using EDS"
+  },
+  {
+    "ID": 405,
+    "parent_ID": 4,
+    "title": "Development of functionality for mass signing of a package of documents"
+  },
+  {
+    "ID": 406,
+    "parent_ID": 4,
+    "title": "Creation of printable forms of documents (Word, Excel, PDF)"
+  },
+  {
+    "ID": 407,
+    "parent_ID": 4,
+    "title": "Writing technical and user documentation"
+  },
+  {
+    "ID": 408,
+    "parent_ID": 4,
+    "title": "Training users to work with new functionality"
+  },
+  {
+    "ID": 501,
+    "parent_ID": 5,
+    "title": "Development of electronic document cards using the DFS framework"
+  },
+  {
+    "ID": 502,
+    "parent_ID": 5,
+    "title": "Integration of electronic document cards with the EDI-provider's EDS signing tool (EDS Signer)"
+  },
+  {
+    "ID": 503,
+    "parent_ID": 5,
+    "title": "Development of the XML interface between SAP ERP and the EDI-provider's connection tool (EDI Connector)"
+  },
+  {
+    "ID": 504,
+    "parent_ID": 5,
+    "title": "Development of functionality for signing multiple documents in a zip-archive"
+  },
+  {
+    "ID": 505,
+    "parent_ID": 5,
+    "title": "Integration with the service of signing documents using a mobile digital signature"
+  },
+  {
+    "ID": 506,
+    "parent_ID": 5,
+    "title": "Creation of printable forms of documents (PDF)"
+  },
+  {
+    "ID": 507,
+    "parent_ID": 5,
+    "title": "Development of functionality for mass printing of a package of documents"
+  },
+  {
+    "ID": 508,
+    "parent_ID": 5,
+    "title": "Writing technical and user documentation"
+  },
+  {
+    "ID": 601,
+    "parent_ID": 6,
+    "title": "Changing the electronic document flow system for integration with the RE-FX module"
+  },
+  {
+    "ID": 602,
+    "parent_ID": 6,
+    "title": "Development of an interface for the automatic creation of RE-FX contracts based on contract cards of the electronic document flow system"
+  },
+  {
+    "ID": 603,
+    "parent_ID": 6,
+    "title": "Development of an interface for the automatic change of the payment terms of RE-FX contracts based on additional agreement cards of the electronic document flow system"
+  },
+  {
+    "ID": 604,
+    "parent_ID": 6,
+    "title": "Development of a program for loading and updating address data provided by the National Cadastral Agency (NCA) (csv files)"
+  },
+  {
+    "ID": 605,
+    "parent_ID": 6,
+    "title": "Extension of the architectural object card and the RE-FX contract card user functionality"
+  },
+  {
+    "ID": 606,
+    "parent_ID": 6,
+    "title": "Support of uploading data to AWP Declarant"
+  },
+  {
+    "ID": 701,
+    "parent_ID": 7,
+    "title": "Creation of complex reports (ALV, Dynpro)"
+  },
+  {
+    "ID": 702,
+    "parent_ID": 7,
+    "title": "Development of business programs for the mass creation of FI, MM, SD and other documents"
+  },
+  {
+    "ID": 703,
+    "parent_ID": 7,
+    "title": "Creation of printable forms (smartform, PDF, Word, Excel), including OXML"
+  },
+  {
+    "ID": 704,
+    "parent_ID": 7,
+    "title": "Creation and support of interfaces between SAP and other systems (files, web-services)"
+  },
+  {
+    "ID": 705,
+    "parent_ID": 7,
+    "title": "Extension of standard programs and transactions with custom functionality using BADI, userexits, enhancements"
+  },
+  {
+    "ID": 706,
+    "parent_ID": 7,
+    "title": "Support for updating the system to the new version of SAP Basis"
+  },
+  {
+    "ID": 707,
+    "parent_ID": 7,
+    "title": "Download data with service programs and LSMW"
+  },
+  {
+    "ID": 708,
+    "parent_ID": 7,
+    "title": "Creation and maintenance of background jobs"
+  },
+  {
+    "ID": 709,
+    "parent_ID": 7,
+    "title": "SQL tuning and performance optimization"
+  },
+  {
+    "ID": 710,
+    "parent_ID": 7,
+    "title": "Creation of multilanguage interfaces"
+  },
+  {
+    "ID": 711,
+    "parent_ID": 7,
+    "title": "Search of notes with the SAP support portal for troubleshooting"
+  },
+  {
+    "ID": 712,
+    "parent_ID": 7,
+    "title": "Writing technical and user documentation"
+  },
+  {
+    "ID": 801,
+    "parent_ID": 8,
+    "title": "Technical design and back-end development of Tax Compliance Tracking Tool (TCTT) application"
+  },
+  {
+    "ID": 802,
+    "parent_ID": 8,
+    "title": "Technical design and back-end development of Accrual Trend module for FC Checklist application"
+  },
+  {
+    "ID": 803,
+    "parent_ID": 8,
+    "title": "Development of backend part of reports for the Fiori application"
+  },
+  {
+    "ID": 804,
+    "parent_ID": 8,
+    "title": "Development and enhancement OData services using SAP Gateway"
+  },
+  {
+    "ID": 805,
+    "parent_ID": 8,
+    "title": "Development of applications using the BOPF architecture based on CDS"
+  },
+  {
+    "ID": 806,
+    "parent_ID": 8,
+    "title": "Development of http-service for integration with SSO (OAuth 2.0)"
+  },
+  {
+    "ID": 807,
+    "parent_ID": 8,
+    "title": "Integration with email processing automation system"
+  },
+  {
+    "ID": 808,
+    "parent_ID": 8,
+    "title": "Add encrypt / decrypt functionality for FC Checklist attachments"
+  },
+  {
+    "ID": 809,
+    "parent_ID": 8,
+    "title": "Participation in HashiCorp Vault configuring"
+  },
+  {
+    "ID": 810,
+    "parent_ID": 8,
+    "title": "Participation in development of PostgREST API component for data receiving from Datalake"
+  },
+  {
+    "ID": 811,
+    "parent_ID": 8,
+    "title": "Creation and usage authorization objects to differentiate roles within an application"
+  },
+  {
+    "ID": 812,
+    "parent_ID": 8,
+    "title": "Working with integrated functions of third-party services, such as AWS S3, HashiCorp Vault"
+  },
+  {
+    "ID": 813,
+    "parent_ID": 8,
+    "title": "Development of email notifications using SAP Email Templates functionality"
+  },
+  {
+    "ID": 814,
+    "parent_ID": 8,
+    "title": "Filters correction for OData service using Code-Based Implementation"
+  },
+  {
+    "ID": 901,
+    "parent_ID": 9,
+    "title": "Full stack applications development (ABAP + SAPUI5)"
+  },
+  {
+    "ID": 902,
+    "parent_ID": 9,
+    "title": "Adjusting data exchange between SAP and non-SAP systems and services (AWS, Datalake)"
+  },
+  {
+    "ID": 903,
+    "parent_ID": 9,
+    "title": "Implementation of PostgREST interface between SAP and Datahub"
+  },
+  {
+    "ID": 904,
+    "parent_ID": 9,
+    "title": "Encrypt / decrypt data with HashiCorp Vault service"
+  },
+  {
+    "ID": 905,
+    "parent_ID": 9,
+    "title": "Reorganization of data encryption / decryption infrastructure on the project"
+  },
+  {
+    "ID": 906,
+    "parent_ID": 9,
+    "title": "Implementation of infrastructure for creating Swagger descriptions of project http-services"
+  },
+  {
+    "ID": 907,
+    "parent_ID": 9,
+    "title": "Creation of advanced customizing tables based on cluster of maintenance views"
+  },
+  {
+    "ID": 908,
+    "parent_ID": 9,
+    "title": "Dynamic programming and DB updating"
+  },
+  {
+    "ID": 909,
+    "parent_ID": 9,
+    "title": "Enhancing standard transactions by adding new screen fields and their processing logic"
+  },
+  {
+    "ID": 910,
+    "parent_ID": 9,
+    "title": "Development of email notifications"
+  },
+  {
+    "ID": 911,
+    "parent_ID": 9,
+    "title": "Writing unit-tests for backend and frontend developments"
+  },
+  {
+    "ID": 912,
+    "parent_ID": 9,
+    "title": "System performance analysis"
+  },
+  {
+    "ID": 1001,
+    "parent_ID": 10,
+    "title": "Development of RFCs to integration with external non-SAP system"
+  },
+  {
+    "ID": 1002,
+    "parent_ID": 10,
+    "title": "Investigation and creation business object events based on the SAP NetWeaver Add-On for Event Enablement"
+  },
+  {
+    "ID": 1003,
+    "parent_ID": 10,
+    "title": "Extending the functionality of standard business objects"
+  },
+  {
+    "ID": 1004,
+    "parent_ID": 10,
+    "title": "Enhancement of standard SAP functionality for raising custom events"
+  },
+  {
+    "ID": 1005,
+    "parent_ID": 10,
+    "title": "Implementation of outbound messages monitoring"
+  },
+  {
+    "ID": 1006,
+    "parent_ID": 10,
+    "title": "Making changes to printable documents based on smartforms"
+  },
+  {
+    "ID": 1101,
+    "parent_ID": 11,
     "title": "Review and implementation of SAP development guidelines on the project"
   },
   {
-    "ID": 2,
-    "parent_ID": 1,
+    "ID": 1102,
+    "parent_ID": 11,
     "title": "Create a common library of reusable development objects"
   },
   {
-    "ID": 3,
-    "parent_ID": 1,
+    "ID": 1103,
+    "parent_ID": 11,
     "title": "Review and adjustment of ATC variants for code base static checks"
   },
   {
-    "ID": 4,
-    "parent_ID": 1,
+    "ID": 1104,
+    "parent_ID": 11,
     "title": "Sprint planning, monitoring, and preparation for development"
   },
   {
-    "ID": 5,
-    "parent_ID": 1,
+    "ID": 1105,
+    "parent_ID": 11,
     "title": "Estimation of development tasks"
   },
   {
-    "ID": 6,
-    "parent_ID": 1,
+    "ID": 1106,
+    "parent_ID": 11,
     "title": "Allocating tasks among team members"
   },
   {
-    "ID": 7,
-    "parent_ID": 1,
+    "ID": 1107,
+    "parent_ID": 11,
     "title": "Presenting sprint results to stakeholders in demo sessions"
   },
   {
-    "ID": 8,
-    "parent_ID": 1,
+    "ID": 1108,
+    "parent_ID": 11,
     "title": "Communication with the Customer's In-house Team"
   },
   {
-    "ID": 9,
-    "parent_ID": 1,
+    "ID": 1109,
+    "parent_ID": 11,
     "title": "Investigating and improving bottlenecks in existing implementations"
   },
   {
-    "ID": 10,
-    "parent_ID": 1,
+    "ID": 1110,
+    "parent_ID": 11,
     "title": "Transport requests management"
   },
   {
-    "ID": 11,
-    "parent_ID": 1,
+    "ID": 1111,
+    "parent_ID": 11,
     "title": "Conducting code reviews and refactoring"
   }
 ]

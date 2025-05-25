@@ -1,10 +1,79 @@
 [
   {
     "ID": 1,
-    "workStart": "2023-06-25",
-    "workFinish": "2023-06-25",
-    "company": "EPAM Systems",
-    "companyLink": "https://www.epam.com",
+    "workStart": "01/07/2003",
+    "workFinish": "01/08/2004",
+    "company_ID": 1,
+    "customer": "The companies of the commercial sector"
+  },
+  {
+    "ID": 2,
+    "workStart": "01/09/2004",
+    "workFinish": "01/04/2008",
+    "company_ID": 2,
+    "customer": "JV CJSC MAZ-MAN"
+  },
+  {
+    "ID": 3,
+    "workStart": "01/04/2008",
+    "workFinish": "01/07/2010",
+    "company_ID": 2,
+    "customer": "JV CJSC MAZ-MAN"
+  },
+  {
+    "ID": 4,
+    "workStart": "01/06/2011",
+    "workFinish": "01/10/2014",
+    "company_ID": 3,
+    "customer": "Unitary Enterprise A1 (A1 Telekom Austria Group)"
+  },
+  {
+    "ID": 5,
+    "workStart": "01/11/2014",
+    "workFinish": "01/12/2017",
+    "company_ID": 3,
+    "customer": "Unitary Enterprise A1 (A1 Telekom Austria Group)"
+  },
+  {
+    "ID": 6,
+    "workStart": "01/01/2018",
+    "workFinish": "01/06/2021",
+    "company_ID": 3,
+    "customer": "Unitary Enterprise A1 (A1 Telekom Austria Group)"
+  },
+  {
+    "ID": 7,
+    "workStart": "01/08/2010",
+    "workFinish": "01/07/2021",
+    "company_ID": 3,
+    "customer": "Unitary Enterprise A1 (A1 Telekom Austria Group)"
+  },
+  {
+    "ID": 8,
+    "workStart": "01/08/2021",
+    "workFinish": "01/01/2023",
+    "company_ID": 4,
+    "customer": "EPAM Systems (Software & Hi-Tech)"
+  },
+  {
+    "ID": 9,
+    "workStart": "01/02/2023",
+    "workFinish": "01/08/2024",
+    "company_ID": 4,
+    "customer": "EPAM Systems (Software & Hi-Tech)"
+  },
+  {
+    "ID": 10,
+    "workStart": "01/11/2023",
+    "workFinish": "31/12/9999",
+    "company_ID": 4,
+    "customer": "Syngenta AG (Commerce)"
+  },
+  {
+    "ID": 11,
+    "workStart": "01/05/2024",
+    "workFinish": "31/12/9999",
+    "company_ID": 4,
     "customer": "Novocure (Life Sciences & Healthcare)"
   }
 ]

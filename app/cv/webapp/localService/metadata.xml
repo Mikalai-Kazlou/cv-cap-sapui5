@@ -20,6 +20,7 @@
           <NavigationPropertyBinding Path="localized" Target="Skills_texts"/>
         </EntitySet>
         <EntitySet Name="WorkExperiences" EntityType="CVService.WorkExperiences">
+          <NavigationPropertyBinding Path="company" Target="Companies"/>
           <NavigationPropertyBinding Path="projectRoles" Target="WorkExperiencesToProjectRoles"/>
           <NavigationPropertyBinding Path="responsibilities" Target="Responsibilities"/>
           <NavigationPropertyBinding Path="technologies" Target="WorkExperiencesToTechnologies"/>
@@ -33,6 +34,10 @@
         <EntitySet Name="WorkExperiencesToTechnologies" EntityType="CVService.WorkExperiencesToTechnologies">
           <NavigationPropertyBinding Path="parent" Target="WorkExperiences"/>
           <NavigationPropertyBinding Path="child" Target="Technologies"/>
+        </EntitySet>
+        <EntitySet Name="Companies" EntityType="CVService.Companies">
+          <NavigationPropertyBinding Path="texts" Target="Companies_texts"/>
+          <NavigationPropertyBinding Path="localized" Target="Companies_texts"/>
         </EntitySet>
         <EntitySet Name="ProjectRoles" EntityType="CVService.ProjectRoles">
           <NavigationPropertyBinding Path="texts" Target="ProjectRoles_texts"/>
@@ -50,6 +55,7 @@
         <EntitySet Name="SkillGroups_texts" EntityType="CVService.SkillGroups_texts"/>
         <EntitySet Name="Skills_texts" EntityType="CVService.Skills_texts"/>
         <EntitySet Name="WorkExperiences_texts" EntityType="CVService.WorkExperiences_texts"/>
+        <EntitySet Name="Companies_texts" EntityType="CVService.Companies_texts"/>
         <EntitySet Name="ProjectRoles_texts" EntityType="CVService.ProjectRoles_texts"/>
         <EntitySet Name="Responsibilities_texts" EntityType="CVService.Responsibilities_texts"/>
         <EntitySet Name="Technologies_texts" EntityType="CVService.Technologies_texts"/>
@@ -95,8 +101,10 @@
         <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
         <Property Name="workStart" Type="Edm.Date"/>
         <Property Name="workFinish" Type="Edm.Date"/>
-        <Property Name="company" Type="Edm.String" MaxLength="100"/>
-        <Property Name="companyLink" Type="Edm.String" MaxLength="100"/>
+        <NavigationProperty Name="company" Type="CVService.Companies">
+          <ReferentialConstraint Property="company_ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
+        <Property Name="company_ID" Type="Edm.Int32"/>
         <Property Name="customer" Type="Edm.String" MaxLength="100"/>
         <NavigationProperty Name="projectRoles" Type="Collection(CVService.WorkExperiencesToProjectRoles)" Partner="parent">
           <OnDelete Action="Cascade"/>
@@ -127,6 +135,7 @@
           <ReferentialConstraint Property="child_ID" ReferencedProperty="ID"/>
         </NavigationProperty>
         <Property Name="child_ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="order" Type="Edm.Int32"/>
       </EntityType>
       <EntityType Name="WorkExperiencesToTechnologies">
         <Key>
@@ -141,6 +150,21 @@
           <ReferentialConstraint Property="child_ID" ReferencedProperty="ID"/>
         </NavigationProperty>
         <Property Name="child_ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="order" Type="Edm.Int32"/>
+      </EntityType>
+      <EntityType Name="Companies">
+        <Key>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="title" Type="Edm.String" MaxLength="100"/>
+        <Property Name="link" Type="Edm.String" MaxLength="100"/>
+        <NavigationProperty Name="texts" Type="Collection(CVService.Companies_texts)">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <NavigationProperty Name="localized" Type="CVService.Companies_texts">
+          <ReferentialConstraint Property="ID" ReferencedProperty="ID"/>
+        </NavigationProperty>
       </EntityType>
       <EntityType Name="ProjectRoles">
         <Key>
@@ -210,8 +234,16 @@
         </Key>
         <Property Name="locale" Type="Edm.String" MaxLength="14" Nullable="false"/>
         <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
-        <Property Name="company" Type="Edm.String" MaxLength="100"/>
         <Property Name="customer" Type="Edm.String" MaxLength="100"/>
+      </EntityType>
+      <EntityType Name="Companies_texts">
+        <Key>
+          <PropertyRef Name="locale"/>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="locale" Type="Edm.String" MaxLength="14" Nullable="false"/>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="title" Type="Edm.String" MaxLength="100"/>
       </EntityType>
       <EntityType Name="ProjectRoles_texts">
         <Key>
