@@ -106,21 +106,8 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<m:List items="{path: 'mockdata>/SkillGroups'}">
-								<m:CustomListItem>
-									<m:VBox class="sapUiTinyMarginTopBottom">
-										<m:Label text="{mockdata>title}"
-											design="Bold"/>
-
-										<m:List items="{path: 'mockdata>skills', templateShareable: false}">
-											<m:CustomListItem>
-												<m:Text text="{mockdata>title}"/>
-											</m:CustomListItem>
-										</m:List>
-
-									</m:VBox>
-								</m:CustomListItem>
-							</m:List>
+							<core:Fragment fragmentName="com.exercise.cvsapui5.view.Skills"
+								type="XML"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
