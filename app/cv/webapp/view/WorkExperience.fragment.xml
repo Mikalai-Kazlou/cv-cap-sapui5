@@ -8,9 +8,16 @@
     updateFinished=".onWorkExperienceListUpdateFinished">
     <CustomListItem>
       <VBox class="sapUiTinyMarginTopBottom">
-        <HBox>
-          <Label text="{mockdata>workStart} - {mockdata>workFinish}"
-            design="Bold"/>
+        <HBox class="sapUiTinyMarginBottom"
+          alignItems="Center">
+          <ObjectStatus text="
+            { parts: [ { path: 'mockdata>workStart' },
+                       { path: 'mockdata>workFinish' }
+                     ],
+              formatter: '.formatter.formatDateRange'
+            }"
+            state="Success"
+            inverted="true"/>
           <Text class="sapUiTinyMarginBegin"
             text="{mockdata>company/title},"/>
           <Link class="sapUiTinyMarginBegin"
@@ -19,17 +26,18 @@
             href="{mockdata>company/link}"/>
         </HBox>
 
-        <HBox>
-          <Label text="Customer:"
+        <VBox>
+          <Label text="Customer"
             design="Bold"/>
           <Text class="sapUiTinyMarginBegin"
             text="{mockdata>customer}"/>
-        </HBox>
+        </VBox>
 
         <VBox class="sapUiTinyMarginTopBottom">
           <Label text="Project Roles"
             design="Bold"/>
-          <Text text="{strings>sProjectRoles}" />
+          <Text class="sapUiTinyMarginBegin"
+            text="{strings>sProjectRoles}" />
           <List items="{path: 'mockdata>projectRoles', templateShareable: false}"
             visible="false">
             <StandardListItem title="{mockdata>child/title}"
@@ -49,7 +57,8 @@
         <VBox class="sapUiTinyMarginTopBottom">
           <Label text="Technologies and Tools"
             design="Bold"/>
-          <Text text="{strings>sTechnologies}" />
+          <Text class="sapUiTinyMarginBegin"
+            text="{strings>sTechnologies}" />
           <List items="{path: 'mockdata>technologies', templateShareable: false}"
             visible="false">
             <StandardListItem title="{mockdata>child/title}"

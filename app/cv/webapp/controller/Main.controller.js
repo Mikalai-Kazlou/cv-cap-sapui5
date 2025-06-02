@@ -1,38 +1,43 @@
-sap.ui.define(["./BaseController", "sap/ui/model/json/JSONModel"], function (BaseController, JSONModel) {
-  "use strict";
+sap.ui.define(
+  ["./BaseController", "sap/ui/model/json/JSONModel", "../model/formatter"],
+  function (BaseController, JSONModel, Formatter) {
+    "use strict";
 
-  return BaseController.extend("com.exercise.cvsapui5.controller.Main", {
-    onInit: function () {
-      const oViewModel = new JSONModel();
-      this.setModel(oViewModel, "strings");
-    },
+    return BaseController.extend("com.exercise.cvsapui5.controller.Main", {
+      formatter: Formatter,
 
-    onWorkExperienceListUpdateFinished: function (oEvent) {
-      const oList = oEvent.getSource();
-      const aItems = oList.getItems();
-      const oData = [];
+      onInit: function () {
+        const oViewModel = new JSONModel();
+        this.setModel(oViewModel, "strings");
+      },
 
-      aItems.forEach((oItem) => {
-        const oItemData = oItem.getBindingContext("mockdata").getObject();
+      onWorkExperienceListUpdateFinished: function (oEvent) {
+        const oList = oEvent.getSource();
+        const aItems = oList.getItems();
+        const oData = [];
 
-        oData.push({
-          sTechnologies: this._convertListToSortedString(oItemData.technologies),
-          sProjectRoles: this._convertListToSortedString(oItemData.projectRoles),
+        aItems.forEach((oItem) => {
+          const oItemData = oItem.getBindingContext("mockdata").getObject();
+
+          oData.push({
+            sTechnologies: this._convertListToSortedString(oItemData.technologies),
+            sProjectRoles: this._convertListToSortedString(oItemData.projectRoles),
+          });
+
+          oItem.bindElement({
+            path: `/${oData.length - 1}`,
+            model: "strings",
+          });
         });
 
-        oItem.bindElement({
-          path: `/${oData.length - 1}`,
-          model: "strings",
-        });
-      });
+        this.getModel("strings").setData(oData);
+      },
 
-      this.getModel("strings").setData(oData);
-    },
-
-    _convertListToSortedString: function (aList) {
-      aList.sort((a, b) => a.order - b.order);
-      const aTitles = aList.map((oList) => oList.child.title);
-      return aTitles.join(", ");
-    },
-  });
-});
+      _convertListToSortedString: function (aList) {
+        aList.sort((a, b) => a.order - b.order);
+        const aTitles = aList.map((oList) => oList.child.title);
+        return aTitles.join(", ");
+      },
+    });
+  }
+);
