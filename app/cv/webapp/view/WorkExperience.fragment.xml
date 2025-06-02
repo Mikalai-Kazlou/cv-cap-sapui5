@@ -1,0 +1,63 @@
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:core="sap.ui.core">
+  <List items="{path: 'mockdata>/WorkExperiences',
+    sorter: {
+        path: 'ID',
+        descending: true
+    }}"
+    updateFinished=".onWorkExperienceListUpdateFinished">
+    <CustomListItem>
+      <VBox class="sapUiTinyMarginTopBottom">
+        <HBox>
+          <Label text="{mockdata>workStart} - {mockdata>workFinish}"
+            design="Bold"/>
+          <Text class="sapUiTinyMarginBegin"
+            text="{mockdata>company/title},"/>
+          <Link class="sapUiTinyMarginBegin"
+            text="{mockdata>company/link}"
+            target="_blank"
+            href="{mockdata>company/link}"/>
+        </HBox>
+
+        <HBox>
+          <Label text="Customer:"
+            design="Bold"/>
+          <Text class="sapUiTinyMarginBegin"
+            text="{mockdata>customer}"/>
+        </HBox>
+
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="Project Roles"
+            design="Bold"/>
+          <Text text="{strings>sProjectRoles}" />
+          <List items="{path: 'mockdata>projectRoles', templateShareable: false}"
+            visible="false">
+            <StandardListItem title="{mockdata>child/title}"
+              description="{mockdata>order}"/>
+          </List>
+        </VBox>
+
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="Responsibilities"
+            design="Bold"/>
+          <List items="{path: 'mockdata>responsibilities', templateShareable: false}">
+            <StandardListItem title="{mockdata>title}"
+              icon="sap-icon://add-coursebook"/>
+          </List>
+        </VBox>
+
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="Technologies and Tools"
+            design="Bold"/>
+          <Text text="{strings>sTechnologies}" />
+          <List items="{path: 'mockdata>technologies', templateShareable: false}"
+            visible="false">
+            <StandardListItem title="{mockdata>child/title}"
+              description="{mockdata>order}"/>
+          </List>
+        </VBox>
+
+      </VBox>
+    </CustomListItem>
+  </List>
+</core:FragmentDefinition>  
