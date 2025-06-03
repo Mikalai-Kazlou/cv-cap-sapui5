@@ -3,6 +3,7 @@ sap.ui.define(function () {
 
   return {
     name: "Mikalai Kazlou",
+    position: "SAP Lead Software Engineer",
     summary:
       '<p style="margin: .25rem 0rem">' +
       "Highly accomplished IT professional with over 20 years of experience in the Information Technology field. Holding a Master's degree in Engineering.</p>" +
@@ -12,16 +13,14 @@ sap.ui.define(function () {
       "Software development has been a significant aspect of my career and is an area where I have continually developed and improved over the years.</p>",
     education: [
       {
-        university:
-          "Belarusian National Technical University (Master's degree)",
+        university: "Belarusian National Technical University (Master's degree)",
         faculty: "Information Technologies and Robotics Faculty",
         specialization: "Automated information processing systems",
         start: "2005",
         end: "2006",
       },
       {
-        university:
-          "Belarusian National Technical University (Bachelor’s degree)",
+        university: "Belarusian National Technical University (Bachelor's degree)",
         faculty: "Information Technologies and Robotics Faculty",
         specialization: "Automation of financial operations",
         start: "2000",
@@ -43,46 +42,55 @@ sap.ui.define(function () {
       },
     ],
     technicalSkills: [
-      {
-        item: "Strong Core ABAP programming skills including ABAP OO and Design Patterns",
-      },
-      {
-        item: "Good experience in CDS, AMDP, BOPF, BAPI/RFC, Web-services (SOAP, REST, OData)",
-      },
-      {
-        item: "Solid knowledge of Frontend development and JavaScript stack (JavaScript, TypeScript, Node.js, SAPUI5)",
-      },
-      {
-        item: "Dotted experience in Cloud Application Programming Model (CAP), RESTful Application Programming Model (RAP)",
-      },
-      {
-        item: "Good understanding of ABAP Test Cockpit, ABAP Performance Tuning, Runtime Analysis Tools and Techniques",
-      },
-      {
-        item: "Knowledge of SAP system functionality (MM, SD, FI, RE-FX modules)",
-      },
+      "Strong Core ABAP programming skills including ABAP OO and Design Patterns",
+      "Good experience in CDS, AMDP, BOPF, BAPI/RFC, Web-services (SOAP, REST, OData)",
+      "Solid knowledge of Frontend development and JavaScript stack (JavaScript, TypeScript, Node.js, SAPUI5)",
+      "Dotted experience in Cloud Application Programming Model (CAP), RESTful Application Programming Model (RAP)",
+      "Good understanding of ABAP Test Cockpit, ABAP Performance Tuning, Runtime Analysis Tools and Techniques",
+      "Knowledge of SAP system functionality (MM, SD, FI, RE-FX modules)",
     ],
     softSkills: [
+      "Ability to play role of Development Team Leader, Resource Manager",
+      "Conducting technical interviews with external candidates",
+      "Agile development experience with expert understanding of application and software architecture",
+      "Ability to work both independently and as a part of international project team",
+      "Disciplined and analytical approach to development projects and ability to work without supervision",
+      "Mentoring and conducting knowledge transfer sessions for less experienced colleagues",
+      "Quickly learning and remembering new information",
+    ],
+    languages: [
       {
-        item: "Ability to play role of Development Team Leader, Resource Manager",
+        language: "Russian",
+        level: "Native",
       },
       {
-        item: "Conducting technical interviews with external candidates",
+        language: "English",
+        level: "B2",
+        levelDescription: "Upper Intermediate",
+      },
+    ],
+    educationalCourses: [
+      {
+        title: "The Rolling Scopes School",
+        description: "JavaScript / Frontend",
+        year: "2023",
       },
       {
-        item: "Agile development experience with expert understanding of application and software architecture",
+        title: "EPAM Training Center",
+        description: "Modern SAP Development",
+        year: "2021",
+      },
+    ],
+    achivements: [
+      {
+        title: "Top SAPper of the Year",
+        description: "EPAM Systems",
+        year: "2024",
       },
       {
-        item: "Ability to work both independently and as a part of international project team",
-      },
-      {
-        item: "Disciplined and analytical approach to development projects and ability to work without supervision",
-      },
-      {
-        item: "Mentoring and conducting knowledge transfer sessions for less experienced colleagues",
-      },
-      {
-        item: "Quickly learning and remembering new information",
+        title: "EPAM Belarus One-of-a-Kind",
+        description: "EPAM Systems",
+        year: "2022",
       },
     ],
   };

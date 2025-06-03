@@ -7,7 +7,7 @@
         headerText="{mockdata>title}"
         width="auto">
         <content>
-          <Table items="{path: 'mockdata>skills'}">
+          <Table items="{path: 'mockdata>skills', templateShareable: false}">
             <columns>
               <Column width="auto">
                 <Text text="Description"/>

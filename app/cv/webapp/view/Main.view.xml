@@ -1,129 +1,173 @@
 <mvc:View controllerName="com.exercise.cvsapui5.controller.Main"
 	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.uxap"
+	xmlns="sap.m"
+	xmlns:uxap="sap.uxap"
 	xmlns:layout="sap.ui.layout"
-	xmlns:m="sap.m"
 	xmlns:core="sap.ui.core">
 
-	<ObjectPageLayout id="idObjectPageLayout"
+	<uxap:ObjectPageLayout id="idObjectPageLayout"
 		showTitleInHeaderContent="true">
-		<headerTitle>
-			<ObjectPageHeader id="idObjectHeader"
+		<uxap:headerTitle>
+			<uxap:ObjectPageHeader id="idObjectHeader"
 				objectTitle="{constants>/name}"
 				showMarkers="true"
 				markFlagged="true"
-				objectSubtitle="SAP Lead Software Engineer"
+				objectSubtitle="{constants>/position}"
 				objectImageURI="./asset/avatar.png"
 				objectImageShape="Circle"
 				isObjectTitleAlwaysVisible="false"
 				isObjectSubtitleAlwaysVisible="false">
-				<actions>
-					<ObjectPageHeaderActionButton text="Download"
+				<uxap:actions>
+					<uxap:ObjectPageHeaderActionButton text="Download"
 						icon="sap-icon://download"
 						press="handleDownload"
 						tooltip="Download"
 						hideText="false"/>
-				</actions>
-			</ObjectPageHeader>
-		</headerTitle>
-		<headerContent>
+				</uxap:actions>
+			</uxap:ObjectPageHeader>
+		</uxap:headerTitle>
+
+		<uxap:headerContent>
 			<layout:VerticalLayout>
 				<layout:HorizontalLayout>
-					<m:Image height="24px"
+					<Image height="24px"
 						width="24px"
 						src="./test-resources/sap/uxap/images/twitterIcon.png"/>
-					<m:Image height="24px"
+					<Image height="24px"
 						width="24px"
 						src="./test-resources/sap/uxap/images/linkedInIcon.png"/>
 				</layout:HorizontalLayout>
 			</layout:VerticalLayout>
-		</headerContent>
-		<sections>
-			<ObjectPageSection title="General Information"
+		</uxap:headerContent>
+
+		<uxap:sections>
+			<uxap:ObjectPageSection title="General Information"
 				wrapTitle="true">
-				<subSections>
-					<ObjectPageSubSection title="Summary">
-						<blocks>
-							<m:FormattedText htmlText="{constants>/summary}"/>
-						</blocks>
-					</ObjectPageSubSection>
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title="Summary">
+						<uxap:blocks>
+							<FormattedText htmlText="{constants>/summary}"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
 
-					<ObjectPageSubSection title="Education">
-						<blocks>
-							<m:List items="{path: 'constants>/education'}">
-								<m:CustomListItem>
-									<m:VBox class="sapUiTinyMarginTopBottom">
-										<m:Label text="{constants>university}"
+					<uxap:ObjectPageSubSection title="Education">
+						<uxap:blocks>
+							<List items="{path: 'constants>/education'}">
+								<CustomListItem>
+									<VBox class="sapUiTinyMarginTopBottom">
+										<Label text="{constants>university}"
 											design="Bold"/>
-										<m:Text text="{constants>faculty}"/>
-										<m:Text text="{constants>specialization}"/>
-										<m:Text class="sapUiTinyMarginTop"
+										<Text text="{constants>faculty}"/>
+										<Text text="{constants>specialization}"/>
+										<Text class="sapUiTinyMarginTop"
 											text="{constants>start} - {constants>end}"/>
-									</m:VBox>
-								</m:CustomListItem>
-							</m:List>
-						</blocks>
-					</ObjectPageSubSection>
+									</VBox>
+								</CustomListItem>
+							</List>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
 
-					<ObjectPageSubSection title="Work Experience">
-						<blocks>
-							<m:List items="{path: 'constants>/workExperience'}">
-								<m:CustomListItem>
-									<m:VBox class="sapUiTinyMarginTopBottom">
-										<m:Label text="{constants>company}"
+					<uxap:ObjectPageSubSection title="Work Experience">
+						<uxap:blocks>
+							<List items="{path: 'constants>/workExperience'}">
+								<CustomListItem>
+									<VBox class="sapUiTinyMarginTopBottom">
+										<Label text="{constants>company}"
 											design="Bold"/>
-										<m:Text text="{constants>position}"/>
-										<m:Text class="sapUiTinyMarginTop"
+										<Text text="{constants>position}"/>
+										<Text class="sapUiTinyMarginTop"
 											text="{constants>start} - {constants>end}"/>
-									</m:VBox>
-								</m:CustomListItem>
-							</m:List>
-						</blocks>
-					</ObjectPageSubSection>
+									</VBox>
+								</CustomListItem>
+							</List>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
 
-					<ObjectPageSubSection title="Technical Skills">
-						<blocks>
-							<m:List items="{path: 'constants>/technicalSkills'}">
-								<m:StandardListItem title="{constants>item}"
+					<uxap:ObjectPageSubSection title="Educational Courses">
+						<uxap:blocks>
+							<List items="{path: 'constants>/educationalCourses'}">
+								<CustomListItem>
+									<VBox class="sapUiTinyMarginTopBottom">
+										<Label text="{constants>title}"
+											design="Bold"/>
+										<Text text="{constants>description}"/>
+										<Text class="sapUiTinyMarginTop"
+											text="{constants>year}"/>
+									</VBox>
+								</CustomListItem>
+							</List>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+
+					<uxap:ObjectPageSubSection title="Achivements">
+						<uxap:blocks>
+							<List items="{path: 'constants>/achivements'}">
+								<CustomListItem>
+									<VBox class="sapUiTinyMarginTopBottom">
+										<Label text="{constants>title}"
+											design="Bold"/>
+										<Text text="{constants>description}"/>
+										<Text class="sapUiTinyMarginTop"
+											text="{constants>year}"/>
+									</VBox>
+								</CustomListItem>
+							</List>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+
+					<uxap:ObjectPageSubSection title="Technical Skills">
+						<uxap:blocks>
+							<List items="{path: 'constants>/technicalSkills'}">
+								<StandardListItem title="{constants>}"
 									icon="sap-icon://add-coursebook"/>
-							</m:List>
-						</blocks>
-					</ObjectPageSubSection>
+							</List>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
 
-					<ObjectPageSubSection title="Soft Skills">
-						<blocks>
-							<m:List items="{path: 'constants>/softSkills'}">
-								<m:StandardListItem title="{constants>item}"
+					<uxap:ObjectPageSubSection title="Soft Skills">
+						<uxap:blocks>
+							<List items="{path: 'constants>/softSkills'}">
+								<StandardListItem title="{constants>}"
 									icon="sap-icon://add-coursebook"/>
-							</m:List>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
+							</List>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
 
-			<ObjectPageSection title="Skills"
+					<uxap:ObjectPageSubSection title="Languages">
+						<uxap:blocks>
+							<List items="{path: 'constants>/languages', templateShareable: false}">
+								<StandardListItem title="{constants>language}: {constants>level} {constants>levelDescription}"
+									icon="sap-icon://add-coursebook"/>
+							</List>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+
+			<uxap:ObjectPageSection title="Skills"
 				wrapTitle="true">
-				<subSections>
-					<ObjectPageSubSection>
-						<blocks>
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection>
+						<uxap:blocks>
 							<core:Fragment fragmentName="com.exercise.cvsapui5.view.Skills"
 								type="XML"/>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
 
-			<ObjectPageSection title="Work Experience"
+			<uxap:ObjectPageSection title="Work Experience"
 				wrapTitle="true">
-				<subSections>
-					<ObjectPageSubSection>
-						<blocks>
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection>
+						<uxap:blocks>
 							<core:Fragment fragmentName="com.exercise.cvsapui5.view.WorkExperience"
 								type="XML"/>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-		</sections>
-	</ObjectPageLayout>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+
+		</uxap:sections>
+	</uxap:ObjectPageLayout>
 </mvc:View>
