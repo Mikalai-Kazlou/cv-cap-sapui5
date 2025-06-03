@@ -2,33 +2,45 @@
   xmlns:core="sap.ui.core">
   <List items="{path: 'mockdata>/SkillGroups'}">
     <CustomListItem>
-      <VBox class="sapUiTinyMarginTopBottom">
-        <Label text="{mockdata>title}"
-          design="Bold"/>
-
-        <Table items="{path: 'mockdata>skills'}">
-          <columns>
-            <Column width="auto"/>
-            <Column width="10%"/>
-            <Column width="10%"/>
-            <Column width="10%"/>
-          </columns>
-          <items>
-            <ColumnListItem vAlign="Middle">
-              <cells>
-                <Text text="{mockdata>title}" />
-                <core:Icon src="sap-icon://accept"
-                  visible="{= %{mockdata>level} === 1 }"/>
-                <core:Icon src="sap-icon://accept"
-                  visible="{= %{mockdata>level} === 2 }"/>
-                <core:Icon src="sap-icon://accept"
-                  visible="{= %{mockdata>level} === 3 }"/>
-              </cells>
-            </ColumnListItem>
-          </items>
-        </Table>
-
-      </VBox>
+      <Panel expandable="true"
+        expanded="true"
+        headerText="{mockdata>title}"
+        width="auto">
+        <content>
+          <Table items="{path: 'mockdata>skills'}">
+            <columns>
+              <Column width="auto">
+                <Text text="Description"/>
+              </Column>
+              <Column width="10%"
+                hAlign="Center">
+                <Text text="Expert"/>
+              </Column>
+              <Column width="10%"
+                hAlign="Center">
+                <Text text="Advanced"/>
+              </Column>
+              <Column width="10%"
+                hAlign="Center">
+                <Text text="Intermediate"/>
+              </Column>
+            </columns>
+            <items>
+              <ColumnListItem vAlign="Middle">
+                <cells>
+                  <Text text="{mockdata>title}" />
+                  <core:Icon src="sap-icon://accept"
+                    visible="{= %{mockdata>level} === 1 }"/>
+                  <core:Icon src="sap-icon://accept"
+                    visible="{= %{mockdata>level} === 2 }"/>
+                  <core:Icon src="sap-icon://accept"
+                    visible="{= %{mockdata>level} === 3 }"/>
+                </cells>
+              </ColumnListItem>
+            </items>
+          </Table>
+        </content>
+      </Panel>
     </CustomListItem>
   </List>
 </core:FragmentDefinition>  
