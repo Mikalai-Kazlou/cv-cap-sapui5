@@ -20,7 +20,7 @@
 				<uxap:actions>
 					<uxap:ObjectPageHeaderActionButton text="Download"
 						icon="sap-icon://download"
-						press="handleDownload"
+						press=".onDownloadPress"
 						tooltip="Download"
 						hideText="false"/>
 				</uxap:actions>
@@ -28,16 +28,26 @@
 		</uxap:headerTitle>
 
 		<uxap:headerContent>
-			<layout:VerticalLayout>
-				<layout:HorizontalLayout>
-					<Image height="24px"
-						width="24px"
-						src="./test-resources/sap/uxap/images/twitterIcon.png"/>
-					<Image height="24px"
-						width="24px"
-						src="./test-resources/sap/uxap/images/linkedInIcon.png"/>
-				</layout:HorizontalLayout>
-			</layout:VerticalLayout>
+			<HBox class="sapUiTinyMarginTop"
+				width="40%"
+				alignItems="Center"
+				justifyContent="SpaceBetween">
+				<Image height="28px"
+					width="28px"
+					src="./asset/linkedin.png"
+					alt="{constants>/linkedinUrl}"
+					press=".onImageIconPress"/>
+				<Image height="28px"
+					width="28px"
+					src="./asset/github.png"
+					alt="{constants>/githubUrl}"
+					press=".onImageIconPress"/>
+				<Image height="28px"
+					width="28px"
+					src="./asset/discord.png"
+					alt="{constants>/discordUrl}"
+					press=".onImageIconPress"/>
+			</HBox>
 		</uxap:headerContent>
 
 		<uxap:sections>

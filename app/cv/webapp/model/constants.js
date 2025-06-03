@@ -4,6 +4,9 @@ sap.ui.define(function () {
   return {
     name: "Mikalai Kazlou",
     position: "SAP Lead Software Engineer",
+    linkedinUrl: "https://www.linkedin.com/in/mikalai-kazlou-a1504bb1/",
+    githubUrl: "https://github.com/mikalai-kazlou/",
+    discordUrl: "https://discordapp.com/users/992799678569660436/",
     summary:
       '<p style="margin: .25rem 0rem">' +
       "Highly accomplished IT professional with over 20 years of experience in the Information Technology field. Holding a Master's degree in Engineering.</p>" +

@@ -33,6 +33,13 @@ sap.ui.define(
         this.getModel("strings").setData(oData);
       },
 
+      onDownloadPress: function (oEvent) {},
+
+      onImageIconPress: function (oEvent) {
+        const link = oEvent.getSource().getAlt();
+        sap.m.URLHelper.redirect(link, true);
+      },
+
       _convertListToSortedString: function (aList) {
         aList.sort((a, b) => a.order - b.order);
         const aTitles = aList.map((oList) => oList.child.title);
