@@ -15,6 +15,7 @@ sap.ui.define(
       onInit: function () {
         const oViewModel = new JSONModel();
         this.setModel(oViewModel, "strings");
+        this.oResourceBundle = this.getResourceBundle();
       },
 
       onWorkExperienceListUpdateFinished: function (oEvent) {
@@ -55,7 +56,7 @@ sap.ui.define(
             File.save(oBlob, sFileDisplayName, "pdf", sMimeType);
           },
           error: function (oError) {
-            MessageToast.show("Download error. Please try again later");
+            MessageToast.show(this.oResourceBundle.getText("downloadError"));
             console.error("Download error:", oError);
           },
         });

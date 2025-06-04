@@ -30,7 +30,7 @@ sap.ui.define(
         this.getRouter().navTo(sName, oParameters, undefined, bReplace);
       },
 
-      onNavBack: function () {
+      navBack: function () {
         const sPreviousHash = History.getInstance().getPreviousHash();
         if (sPreviousHash !== undefined) {
           window.history.go(-1);

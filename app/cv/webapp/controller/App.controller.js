@@ -4,9 +4,7 @@ sap.ui.define(["./BaseController"], function (BaseController) {
   return BaseController.extend("com.exercise.cvsapui5.controller.App", {
     onInit: function () {
       // apply content density mode to root view
-      this.getView().addStyleClass(
-        this.getOwnerComponent().getContentDensityClass()
-      );
+      this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
     },
   });
 });
