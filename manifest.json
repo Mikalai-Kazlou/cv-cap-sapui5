@@ -11,7 +11,7 @@
 		},
 		"dataSources": {
 			"mockdata": {
-				"uri": "/sap/opu/odata4/sap/zexercise/default/sap/zexercise_cv/0001/",
+				"uri": "/localService/metadata.xml",
 				"type": "OData",
 				"settings": {
 					"localUri": "localService/metadata.xml",
