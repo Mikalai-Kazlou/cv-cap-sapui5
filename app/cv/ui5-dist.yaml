@@ -14,3 +14,13 @@ framework:
     - name: sap.ui.core
     - name: sap.ui.unified
     - name: themelib_sap_horizon
+server:
+  customMiddleware:
+  - name: sap-fe-mockserver
+    beforeMiddleware: csp
+    configuration:
+      service:
+        urlPath: /sap/opu/odata4/sap/zexercise/default/sap/zexercise_cv/0001
+        metadataXmlPath: ./webapp/localService/metadata.xml
+        mockdataRootPath: ./webapp/localService/mockdata
+        generateMockData: false        
