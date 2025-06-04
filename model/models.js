@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/model/BindingMode","sap/ui/Device","./constants"],function(e,n,t,i){"use strict";return{createDeviceModel:()=>{const i=new e(t);i.setDefaultBindingMode(n.OneWay);return i},createConstantModel:()=>{const t=new e(i);t.setDefaultBindingMode(n.OneWay);return t}}});
+//# sourceMappingURL=models.js.map

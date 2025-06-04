@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/opaQunit","./pages/Main"],function(){"use strict";QUnit.module("Navigation");opaTest("Should open the Cart page",function(e,n,a){e.iStartMyUIComponent({componentConfig:{name:"com.exercise.cvsapui5"}});n.onTheMainPage.iPressTheCartButton();a.onTheMainPage.iShouldSeeTheCartPage();a.iTeardownMyApp()})});
+//# sourceMappingURL=NavigationJourney.js.map

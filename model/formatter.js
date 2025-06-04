@@ -1,0 +1,2 @@
+sap.ui.define(function(){"use strict";return{formatDate:function(t){if(!t){return""}const e=new Date(t.split("/").reverse().join("-"));if(isNaN(e)){return t}if(e.getFullYear()===9999){return"Till now"}const r=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];const n=r[e.getMonth()];const a=e.getFullYear();return`${n}-${a}`},formatDateRange:function(t,e){const r=this.formatter.formatDate(t);const n=this.formatter.formatDate(e);return`${r} - ${n}`}}});
+//# sourceMappingURL=formatter.js.map
