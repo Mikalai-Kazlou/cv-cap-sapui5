@@ -1,6 +1,12 @@
 sap.ui.define(
-  ["./BaseController", "sap/ui/model/json/JSONModel", "../model/formatter"],
-  function (BaseController, JSONModel, Formatter) {
+  [
+    "./BaseController",
+    "sap/ui/model/json/JSONModel",
+    "sap/ui/core/util/File",
+    "sap/m/MessageToast",
+    "../model/formatter",
+  ],
+  function (BaseController, JSONModel, File, MessageToast, Formatter) {
     "use strict";
 
     return BaseController.extend("com.exercise.cvsapui5.controller.Main", {
@@ -12,8 +18,7 @@ sap.ui.define(
       },
 
       onWorkExperienceListUpdateFinished: function (oEvent) {
-        const oList = oEvent.getSource();
-        const aItems = oList.getItems();
+        const aItems = oEvent.getSource().getItems();
         const oData = [];
 
         aItems.forEach((oItem) => {
@@ -33,7 +38,28 @@ sap.ui.define(
         this.getModel("strings").setData(oData);
       },
 
-      onDownloadPress: function (oEvent) {},
+      onDownloadPress: function () {
+        const oModel = this.getModel("constants");
+        const sFileUrl = oModel.getProperty("/cvFileUrl");
+        const sFileDisplayName = oModel.getProperty("/cvFileDisplayName");
+        const sMimeType = "application/pdf";
+
+        $.ajax({
+          url: sFileUrl,
+          method: "GET",
+          xhrFields: {
+            responseType: "arraybuffer",
+          },
+          success: function (data) {
+            const oBlob = new Blob([data], { type: sMimeType });
+            File.save(oBlob, sFileDisplayName, "pdf", sMimeType);
+          },
+          error: function (oError) {
+            MessageToast.show("Download error. Please try again later");
+            console.error("Download error:", oError);
+          },
+        });
+      },
 
       onImageIconPress: function (oEvent) {
         const link = oEvent.getSource().getAlt();

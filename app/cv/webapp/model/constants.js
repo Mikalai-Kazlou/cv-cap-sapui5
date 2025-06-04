@@ -4,6 +4,8 @@ sap.ui.define(function () {
   return {
     name: "Mikalai Kazlou",
     position: "SAP Lead Software Engineer",
+    cvFileUrl: "./asset/cv-mikalai-kazlou.pdf",
+    cvFileDisplayName: "CV (Mikalai Kazlou)",
     linkedinUrl: "https://www.linkedin.com/in/mikalai-kazlou-a1504bb1/",
     githubUrl: "https://github.com/mikalai-kazlou/",
     discordUrl: "https://discordapp.com/users/992799678569660436/",
