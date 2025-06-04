@@ -11,7 +11,7 @@
 		},
 		"dataSources": {
 			"mockdata": {
-				"uri": "localService/metadata.xml",
+				"uri": "localService/metadata.xml/",
 				"type": "OData",
 				"settings": {
 					"localUri": "localService/metadata.xml",
