@@ -18,14 +18,13 @@
     "@ui5/cli": "^4.0.15",
     "eslint": "^9.25.1",
     "globals": "^16.0.0",
-    "ui5-middleware-livereload": "^3.1.1"
+    "ui5-middleware-livereload": "^3.1.1",
+    "@sap-ux/ui5-middleware-fe-mockserver": "^2.2.95"
   },
   "ui5": {
     "dependencies": [
-      "ui5-middleware-livereload"
+      "ui5-middleware-livereload",
+      "@sap-ux/ui5-middleware-fe-mockserver"
     ]
-  },
-  "dependencies": {
-    "@sap-ux/ui5-middleware-fe-mockserver": "^2.2.95"
   }
 }

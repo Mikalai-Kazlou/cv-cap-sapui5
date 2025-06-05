@@ -7,8 +7,11 @@ framework:
   version: "1.120.30"
   libraries:
     - name: sap.m
+    - name: sap.f
+    - name: sap.uxap
     - name: sap.ui.core
     - name: sap.ui.unified
+    - name: sap.ui.layout
     - name: themelib_sap_horizon
 server:
   customMiddleware:
