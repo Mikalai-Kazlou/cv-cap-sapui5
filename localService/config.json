@@ -1,0 +1,9 @@
+[
+  {
+    "urlBasePath": "/sap/opu/odata4/sap/zexercise/default/sap/zexercise_cv/0001",
+    "name": "",
+    "metadataPath": "./metadata.xml",
+    "mockdataPath": "./mockdata",
+    "generateMockData": false
+  }
+]
